@@ -7,6 +7,7 @@ export const drawProduct = () => {
   fetch(apiProduct)
     .then((response) => response.json())
     .then((data) => {
+      console.log(data);
       let htmls = "";
       data.forEach((item) => {
         htmls += `

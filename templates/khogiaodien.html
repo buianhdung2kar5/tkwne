@@ -456,6 +456,7 @@
             fetch("https://daca-62l9.vercel.app/database.json")
                 .then(response => response.json())
                 .then(data => {
+                    console.log(data);
                     let htmls="";
                     data.new.forEach( item => {
                         htmls += `
