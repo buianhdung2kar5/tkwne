@@ -1,1 +1,1 @@
-web: gurnicon main:app
+web: gurnicon app:app
