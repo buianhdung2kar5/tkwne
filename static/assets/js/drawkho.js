@@ -1,4 +1,4 @@
-import { params } from "./params.js";
+import { params } from "/static/assets/js/params.js";
 
 const api = "https://daca-62l9.vercel.app/database.json";
 
@@ -8,7 +8,7 @@ export const drawProduct = () => {
     .then((response) => response.json())
     .then((data) => {
       let htmls = "";
-      data.khogiaodien.forEach((item) => {
+      data.forEach((item) => {
         htmls += `
                     <div class="inner-box">
                         <div class="inner-image">
