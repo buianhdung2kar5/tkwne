@@ -8,7 +8,7 @@ export const drawProduct = () => {
     .then((response) => response.json())
     .then((data) => {
       let htmls = "";
-      data.forEach((item) => {
+      data.khogiaodien.forEach((item) => {
         htmls += `
                     <div class="inner-box">
                         <div class="inner-image">

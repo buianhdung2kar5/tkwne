@@ -1,5 +1,5 @@
-import { drawProduct } from "./drawkho.js";
-import { params } from "./params.js";
+import { drawProduct } from "/static/assets/js/drawkho.js";
+import { params } from "/static/assets/js/params.js";
 
 drawProduct()
 // search
