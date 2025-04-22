@@ -4,10 +4,10 @@ import requests
 import json
 import os
 
-# Load biến môi trường từ file .env
-load_dotenv()
 
 app = Flask(__name__)
+
+load_dotenv()
 
 # Cài secret_key từ biến môi trường
 app.secret_key = os.getenv("SECRET_KEY")
