@@ -1,1 +1,0 @@
-# tkw_thuyettrinh
