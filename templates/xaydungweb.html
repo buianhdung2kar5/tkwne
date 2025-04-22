@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/slick.css">
+    <link rel="stylesheet" href="/static/assets/css/reset.css">
+    <link rel="stylesheet" href="/static/assets/css/base.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+    <link rel="stylesheet" href="/static/assets/css/web2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="/static/assets/bootstrap/jquery.slim.min.js"></script>
+    <script src="/static/assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-logo">
+                    <a href="/"><img src="/static/assets/image/logo.svg" alt=""></a>
+                </div>
+                <div class="inner-menu">
+                    <ul>
+                        <li>
+                            <a href="/xaydungweb">Xây dựng Website <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/xaydungweb">Thiết Kế Website</a></li>
+                                <li><a href="/khogiaodien">Kho Giao Diện</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/thietkelogo">Thiết Kế Đồ Họa<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/thietkelogo">Thiết Kế Logo</a></li>
+                                <li><a href="/banhang">Bộ Nhận diện thương hiệu</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Cộng tác<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="#">Chương Trình Đại Lý</a></li>
+                                <li><a href="#">Cộng Tác Viên</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="#">Tổng Hợp</a></li>
+                                <li><a href="#">Lập Trình</a></li>
+                                <li><a href="#">Cách Bán Hàng Trên Website</a></li>
+                                <li><a href="#">Bí Quyết Làm SEO</a></li>
+                                <li><a href="#">Kinh Nghiệm Thiết Kế Website</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button>
+                <div class="inner-bar" id="inner-bar"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+    <div class="menu" id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="/xaydungweb">Xây dựng Website</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/xaydungweb">Thiết Kế Website</a></li>
+                    <li><a href="/khogiaodien">Kho Giao Diện</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/thietkelogo">Thiết Kế Đồ Họa</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/thietkelogo">Thiết kế Logo</a></li>
+                    <li><a href="/banhang">Bộ nhận diện thương hiệu</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Cộng tác</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="">Chương trình đại lý</a></li>
+                    <li><a href="">Cộng tác viên</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="">Tổng hợp</a></li>
+                    <li><a href="">Lập trình</a></li>
+                    <li><a href="">Cách bán hàng trên website</a></li>
+                    <li><a href="">Bí quyết làm SEO</a></li>
+                    <li><a href="">Kinh nghiệm thiết kế website</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Liên Hệ</a>
+            </li>
+        </ul>
+        <div class="inner-logo">
+            <img src="/static/assets/image/logo.svg" alt="">
+        </div>
+        <div class="buttonClose" id="buttonClose"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    <!--end header -->
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="/static/assets/image/logo.svg" alt="">
+          <h2>Gửi yêu cầu tư vấn miễn phí</h2>
+          <p>38.000+ doanh nghiệp & chủ shop đã tin dùng    </p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Họ và tên">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Số điện thoại">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Lĩnh vực kinh doanh">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="button">Gửi Yêu Cầu</button>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- title1 -->
+     <div class="title1">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-image">
+                    <img src="/static/assets/image/bg-thiet-ke-website.svg" alt="">
+                </div>
+                <div class="inner-content">
+                    <h2>Thiết kế website bán hàng chuyên nghiệp</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Tiêu chuẩn HTML – CSS – W3C</li>
+                        <li><i class="fa-solid fa-check"></i>Tương thích với mọi thiết bị di dộng</li>
+                        <li><i class="fa-solid fa-check"></i>Chuẩn Seo Google – Online Maketing</li>
+                        <li><i class="fa-solid fa-check"></i>Tối ưu cho tỉ lệ chuyển đổi đơn hàng</li>
+                        <li><i class="fa-solid fa-check"></i>Nhiều giao diện đẹp, phù hợp với các ngành ng</li>
+                        <li><i class="fa-solid fa-check"></i>Tốc độ load siêu nhanh dưới 2 giây</li>
+                        <li><i class="fa-solid fa-check"></i>Hỗ trợ 24/7</li>
+                        <li><i class="fa-solid fa-check"></i>38.000+ chủ shop, doanh nghiệp tin dùng</li>
+                    </ul>
+                    <button type="button" class="btn btn-primary button button2" data-toggle="modal" data-target="#exampleModal">Yêu Cầu Tư Vấn</button>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- title1 -->
+    <!-- section2 -->
+    <div class="section2">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-title">
+                    <h2>Lợi ích khởi tạo Website bán hàng với Daca </h2>
+                    <p>Hỗ trợ chủ shop & doanh nghiệp tăng trưởng bán hàng</p>
+                </div>
+                <div class="inner-content">
+                    <div class="inner-box">
+                        <h2 class="inner-title">Mở rộng khả năng tiếp cận khách hàng</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/benefit-icon-1.png" alt="">
+                        </div>
+                        <p class="inner-desc">Xu hướng mua sắm của người dùng dần chuyển dịch sang kênh online. Có
+                            website bán hàng, chủ shop sẽ dễ dàng triển khai đẩy đơn, ship hàng online</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Tăng hiệu quả hoạt động quảng cáo</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/benefit-icon-2.png" alt="">
+                        </div>
+                        <p class="inner-desc">Nhờ tính ổn định và bảo mật, mọi hoạt động quảng cáo trực tuyến đều lấy
+                            website làm trung tâm. Thiết kế website chuyên nghiệp sẽ làm tăng hiệu quả SEO và chuyển đổi
+                            quảng cáo</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Xây dựng được uy tín và thương hiệu</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/benefit-icon-3.png" alt="">
+                        </div>
+                        <p class="inner-desc">Tạo website bán hàng chuyên nghiệp với giao diện đẹp mắt, hỗ trợ mua sắm
+                            online tiện lợi sẽ khiến cho khách hàng yêu quý, tin tưởng hơn vào sản phẩm và thương hiệu
+                            của bạn</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Hỗ trợ Chăm sóc khách hàng 24/7</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/benefit-icon-4.png" alt="">
+                        </div>
+                        <p class="inner-desc">Khách hàng có thể xem và đặt hàng bất cứ lúc nào trong ngày, và bạn có thể
+                            tư vấn cho khách hàng 24/7 ngay trên website. Từ đó, doanh thu của bạn sẽ tăng lên nhanh
+                            chóng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end section2 -->
+     <div class="hightlight">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-title">
+                    <div class="inner-title">
+                        <h2>Tại sao nên chọn dịch vụ thiết kế Website bán hàng tại Daca?</h2>
+                        <p>Sự hài lòng của khách hàng chính là thành công lớn nhất của chúng tôi</p>
+                    </div>
+                </div>
+                <div class="inner-hightlight">
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/content5.png" alt=""></div>
+                        <h2>TƯƠNG THÍCH MỌI THIẾT BỊ</h2>
+                        <p>Thiết kế web trọn gói chuẩn SEO với công nghệ responsive giúp website có thể tự động thích ứng trên mọi thiết bị, phát huy hết sức mạnh của nó.</p>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/content-1.png" alt=""></div>
+                        <h2>QUẢN LÝ ĐƠN GIẢN</h2>
+                        <p>Hệ thống quản lý nội dung hiện đại, tiện lợi, đồng thời tối ưu dữ liệu để phù hợp hơn với mọi thiết bị. Giúp dễ dàng cập nhật và quản lý nội dung trên website của bạn.</p>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/content2.png" alt=""></div>
+                        <h2>CHI PHÍ HIỆU QUẢ</h2>
+                        <p>Cho dù nhu cầu thiết kế web trọn gói như thế nào thì động cơ quyết định vẫn là tiết kiệm nhiều chi phí. Nhiều ưu đãi đi kèm giúp hạn chế mức chi phí bỏ ra của doanh nghiệp nhưng vẫn thu về hiệu quả cao nhất.</p>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/content3.png" alt=""></div>
+                        <h2>TỐI ƯU HÓA SEO</h2>
+                        <p>Bố cục, cấu trúc trang tối ưu, mang lại hiệu quả trong việc SEO trên mọi thiết bị, giúp website có thứ hạng cao trên các công cụ tìm kiếm.</p>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/content4.png" alt=""></div>
+                        <h2>NÂNG CAO TRẢI NGHIỆM</h2>
+                        <p>Chúng tôi luôn thiết kế những website hướng đến sự thân thiện với người dùng, giúp tối đa hóa tỉ lệ chuyển đổi và gia tăng doanh số cho doanh nghiệp của bạn.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- section3 -->
+    <div class="section3">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-title">
+                    <h2>Thiết kế Website chuyên nghiệp dành riêng cho bạn</h2>
+                    <p>Daca mang đến giải pháp thiết kế web chuyên nghiệp, trọn gói, phù hợp với từng lĩnh vực, ngành
+                        nghề kinh doanh của bạn</p>
+                </div>
+                <div class="inner-content">
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_104_hotel" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/khach-san-du-lich.jpg"
+                                    alt=""></div>
+                            <p>Khách sạn - Du lịch</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_573_eduwell" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/giao-duc.jpg" alt=""></div>
+                            <p>Giáo dục</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_223_milky" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/me-va-be.jpg" alt=""></div>
+                            <p>Mẹ và bé</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_519_beauty" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/my-pham-lam-dep.jpg" alt="">
+                            </div>
+                            <p>Mỹ phẩm - Làm đẹp</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_067_fashion" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/thoi-trang-trang-suc.jpg"
+                                    alt=""></div>
+                            <p>Thời trang - Trang sức</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_539_simple_house" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/thuc-pham-nha-hang.jpg"
+                                    alt=""></div>
+                            <p>Thực phẩm - Nhà hàng</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_486_new_event" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/do-gia-dung-sinh-hoat.jpg"
+                                    alt=""></div>
+                            <p>Đồ gia dụng - Sinh hoạt</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_158_interior" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/noi-that-trang-tri.jpg"
+                                    alt=""></div>
+                            <p>Nội thất - Trang trí</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_086_book_store" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/sach-van-phong-pham.jpg"
+                                    alt=""></div>
+                            <p>Sách - Văn phòng phẩm</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_205_web_tech" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/cong-nghe-ky-thuat-so.jpg"
+                                    alt=""></div>
+                            <p>Công nghệ - Kỹ thuật số</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_463_motor" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/phuong-tien-giao-thong.jpg"
+                                    alt=""></div>
+                            <p>Phương tiện giao thông</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_182_sport_center" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/the-thao-dich-vu.jpg"
+                                    alt=""></div>
+                            <p>Thể thao - Dịch vụ</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_078_real_estate" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/bat-dong-san-xay-dung.jpg"
+                                    alt=""></div>
+                            <p>Bất động sản - Xây dựng</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_587_tiya_golf_club" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/doanh-nghiep.jpg" alt="">
+                            </div>
+                            <p>Doanh nghiệp</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <a href="https://templatemo.com/live/templatemo_566_medic_care" target="_blank">
+                            <div class="inner-image"><img src="/static/assets/image/thuoc-tpcn.jpg" alt="">
+                            </div>
+                            <p>Thuốc - TPCN</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end-section3 -->
+     <div class="step">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-title">
+                    <h2>Quy trình thiết kế Website tại Daca</h2>
+                    <p>Chỉ với 6 bước đơn giản dưới đây bạn đã sở hữu một website bán hàng chuyên nghiệp</p>
+                </div>
+                <div class="inner-step">
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/quy-trinh-1.png" alt=""></div>
+                        <h2>1.NHẬN YÊU CẦU & BÁO GIÁ</h2>
+                        <ul>
+                            <li>Khách hàng yêu cầu làm website, cung cấp thông tin cho Daca</li>
+                            <li>Đội ngũ Daca tiếp nhận yêu cầu và thông tin của khách hàng</li>
+                            <li>Gửi mẫu giao diện và báo giá</li>
+                        </ul>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/quy-trinh-2.png" alt=""></div>
+                        <h2>2.KÝ KẾT HỢP ĐỒNG THIẾT KẾ WEB</h2>
+                        <ul>
+                            <li> Khách hàng phản hồi lại, chốt phương án thiết kế</li>
+                            <li>Hai bên thỏa thuận, thống nhất hợp đồng: Giá cả, tiến độ, thanh toán...</li>
+                            <li>Ký kết hợp đồng, thanh toán chi phí làm web tại Daca</li>
+                        </ul>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/quy-trinh-3.png" alt=""></div>
+                        <h2>3.THIẾT KẾ GIAO DIỆN WEB</h2>
+                        <ul>
+                            <li>Kỹ thuật viên Daca triển khai thiết kế trang chủ, các trang con, gửi khách hàng kiểm tra demo</li>
+                            <li>Khách hàng xác nhận và yêu cầu chỉnh sửa (nếu có)</li>
+                            <li>Hoàn thiện giao diện trên mobile và các thiết bị di động khác</li>
+                        </ul>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/quy-trinh-4.png" alt=""></div>
+                        <h2>4.DỰNG DEMO WEB</h2>
+                        <ul>
+                            <li>Cắt ráp tối ưu HTML/CSS, hiệu ứng Javascript, cấu trúc, lập trình web</li>
+                            <li>Chỉnh sửa, gửi demo cho khách hàng duyệt</li>
+                            <li>Khách hàng check và duyệt demo online</li>
+                        </ul>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/quy-trinh-5.png" alt=""></div>
+                        <h2>5.KIỂM TRA LỖI & CHẠY THỬ NGHIỆM</h2>
+                        <ul>
+                            <li>Phân tích database, lập trình giao diện người sử dụng</li>
+                            <li>Test web, phát hiện lỗi phát sinh và chỉnh sửa (nếu có)</li>
+                            <li>Chạy thử nghiệm website trên Internet</li>
+                        </ul>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image"><img src="/static/assets/image/quy-trinh-6.png" alt=""></div>
+                        <h2>6.BÀN GIAO WEB & HƯỚNG DẪN QUẢN TRỊ</h2>
+                        <ul>
+                            <li>Bàn giao web hoàn chỉnh cho khách hàng</li>
+                            <li>Hướng dẫn khách hàng quản trị website trực tiếp hoặc online qua Teamviewer/Ultraview</li>
+                            <li>Bảo hành web trọn đời, hỗ trợ kỹ thuật 24/7.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- section4 -->
+    <div class="section4">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-title">
+                    <h2>+38.000 khách hàng đã sử dụng Daca</h2>
+                    <p>Sự hài lòng của khách hàng chính là thành công lớn nhất của chúng tôi</p>
+                </div>
+                <div class="inner-content">
+                    <div class="inner-list">
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-1.png" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-2.jpg" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-3.jpg" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-4.jpg" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-5.png" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-6.jpg" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-7.jpg" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-8.jpg" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-9.png" alt=""></div>
+                        <div class="inner-item"><img src="/static/assets/image/khach-hang-10.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section4 -->
+    <!-- footer -->
+    <footer>
+        <!-- section6 -->
+        <div class="section6">
+            <div class="container">
+                <div class="inner-title">
+                    <h2>Gửi yêu cầu tư vấn miễn phí</h2>
+                    <p>DACA – Công Ty Thiết Kế Website Uy Tín, Chuyên Nghiệp, Chuẩn SEO</p>
+                </div>
+                <div class="inner-content">
+                    <form id="formTwo" class="formTwo">
+                        <input type="phoneTwo" id="phoneTwo" class="inner-phone" placeholder="Số điện thoại cần tư vấn">
+                        <button class="button button1" type="submit">Đăng Ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- section6 -->
+        <!-- section7 -->
+        <div class="section7">
+            <div class="container">
+                <div class="inner-content">
+                    <div class="inner-box">
+                        <h2>Liên hệ</h2>
+                        <p>Công Ty TNHH Công Nghệ Và Dịch Vụ DACA</p>
+                        <p>Địa chỉ:T. Phú Lương Thượng - Quảng Phú Cầu - Ứng Hòa - Hà Nội</p>
+                        <p>Hotline:0344 570 115</p>
+                        <p>Email:contact@daca.vn</p>
+                        <p>Giấy phép kinh doanh số:0109971659 do Sở kế hoạch và Đầu tư Tp. Hà nội cấp ngày 20/04/2022
+                        </p>
+                    </div>
+                    <div class="inner-box">
+                        <h2>Daca.vn</h2>
+                        <a href="#">
+                            <p>Về chúng tôi</p>
+                        </a>
+                        <a href="#">
+                            <p>Bảng giá Website</p>
+                        </a>
+                        <a href="#">
+                            <p>Chương trình đại lý</p>
+                        </a>
+                        <a href="#">
+                            <p>Cộng tác viên</p>
+                        </a>
+                        <a href="#">
+                            <p>Blog Daca</p>
+                        </a>
+                        <a href="#">
+                            <p>Liên hệ</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <h2>Thiết kế website</h2>
+                        <a href="#">
+                            <p>Thiết kế Mỹ phẩm</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế web Thời trang</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế web Nội thất</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế web Công nghệ</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế website mẹ và bé</p>
+                        </a>
+                        <a href="#">
+                            <p>Thiết kế web Giáo dục</p>
+                        </a>
+                    </div>
+                    <div class="inner-box">
+                        <h2>Trợ giúp</h2>
+                        <a href="#">
+                            <p>Tài liệu hướng dẫn</p>
+                        </a>
+                        <a href="#">
+                            <p>Hướng dẫn thanh toán</p>
+                        </a>
+                        <a href="#">
+                            <p>Chính sách bảo mật thông tin</p>
+                        </a>
+                        <a href="#">
+                            <p>Điều khoản sử dụng</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="inner-contact">
+                    <div class="inner-box">
+                        <h2>Địa chỉ:</h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8139388581217!2d105.83992427503058!3d21.000094180642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac71752d8f79%3A0xd2ec575c01017afa!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIFThur8gUXXhu5FjIETDom4gKE5FVSk!5e0!3m2!1svi!2s!4v1742976642235!5m2!1svi!2s"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section7 -->
+        <!-- section8 -->
+        <div class="section8">
+            <div class="container">
+                <h2>Copyright 2022 Daca.vn - All Rights Reserved</h2>
+            </div>
+        </div>
+        <!-- end-section8 -->
+    </footer>
+    <!-- footer -->
+    <div class="contact">
+        <ul class="contact-list">
+            <li><a href="https://www.facebook.com/ktqdNEU"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+            <li><a href="https://www.facebook.com/ktqdNEU"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/ktqdNEU"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+    </div>
+
+    <script src="/static/assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/static/assets/js/slick.min.js"></script>
+    <script src="/static/assets/js/script.js"></script>
+</body>
+
+</html>

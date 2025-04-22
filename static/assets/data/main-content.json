@@ -1,0 +1,59 @@
+[
+    {
+      "link": "/blog/top10ai",
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/top10ai.png",
+      "title": "Top 10 AI hot nhất 2025",
+      "time": "2025-04-20",
+      "desc": "Tổng hợp 10 công cụ, nền tảng và ứng dụng AI đang dẫn đầu xu hướng năm 2025."
+    },
+    {
+      "link": "/blog/thuatngufrontend",
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/thuatngufrontend.png",
+      "title": "Thuật ngữ Frontend cho người mới",
+      "time": "2025-04-20",
+      "desc": "Giải thích các thuật ngữ cơ bản trong frontend như HTML, CSS, JS dành cho người mới bắt đầu."
+    },
+    {
+      "link": "/blog/thuatngubackend",
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/backend.png",
+      "title": "Thuật ngữ Backend cho người mới",
+      "time": "2025-04-20",
+      "desc": "Tổng hợp các thuật ngữ backend như API, server, database... giúp bạn làm quen với lập trình phía sau."
+    },
+    {
+      "link": "/blog/8lenhsql",
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/8lenhsql.png",
+      "title": "Top 8 lệnh SQL bạn nên biết",
+      "time": "2025-04-20",
+      "desc": "Danh sách các lệnh SQL hữu ích và phổ biến nhất mà bất kỳ lập trình viên nào cũng nên nắm vững."
+    },
+    {
+      "link": "./kich-thuoc-thiet-ke-website-chuan.html",
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/kichthuoc-website.png",
+      "title": "Kích thước thiết kế Website chuẩn - Có ảnh hưởng tới SEO?",
+      "time": "2022-01-16",
+      "desc": "Tìm hiểu về các kích thước tiêu chuẩn trong thiết kế web và mối liên hệ với tối ưu hóa công cụ tìm kiếm (SEO)."
+    },
+    {
+      "link": "#",
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/placeholder.png",
+      "title": "Đang cập nhật...",
+      "time": "Đang cập nhật",
+      "desc": "Bài viết này đang được cập nhật nội dung. Vui lòng quay lại sau!"
+    },
+    {
+        "link": "/blog/10sukienthuongnien",
+        "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/10sukienthuongnien.png",
+        "title": "Top 10 sự kiện công nghệ hàng năm",
+        "time": "2025-04-20",
+        "desc": "Tổng hợp 10 sự kiện công nghệ lớn nhất diễn ra hằng năm như CES, MWC, Google I/O, WWDC, Microsoft Build... giúp bạn cập nhật xu hướng toàn cầu."
+      },
+      {
+        "link":"/blog/meojavascript",
+        "image":"#",
+        "title":"Các mẹo javascript hay có thể giúp ích cho bạn",
+        "time":"2025-06-14",
+        "desc": "Tổng hợp những mẹo hay về javascript giúp bạn code hiệu quả hơn, tăng tốc độ làm việc, giảm tải khối lượng code đáng kể"
+      }
+  ]
+  

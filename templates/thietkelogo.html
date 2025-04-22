@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/slick.css">
+    <link rel="stylesheet" href="/static/assets/css/reset.css">
+    <link rel="stylesheet" href="/static/assets/css/base.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+    <link rel="stylesheet" href="/static/assets/css/web4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="/static/assets/bootstrap/jquery.slim.min.js"></script>
+    <script src="/static/assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-logo">
+                    <a href="/"><img src="/static/assets/image/logo.svg" alt=""></a>
+                </div>
+                <div class="inner-menu">
+                    <ul>
+                        <li>
+                            <a href="/xaydungweb">Xây dựng Website <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/xaydungweb">Thiết Kế Website</a></li>
+                                <li><a href="/khogiaodien">Kho Giao Diện</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/thietkelogo">Thiết Kế Đồ Họa<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/thietkelogo">Thiết Kế Logo</a></li>
+                                <li><a href="/banhang">Bộ Nhận diện thương hiệu</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Cộng tác<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="#">Chương Trình Đại Lý</a></li>
+                                <li><a href="#">Cộng Tác Viên</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="#">Tổng Hợp</a></li>
+                                <li><a href="#">Lập Trình</a></li>
+                                <li><a href="#">Cách Bán Hàng Trên Website</a></li>
+                                <li><a href="#">Bí Quyết Làm SEO</a></li>
+                                <li><a href="#">Kinh Nghiệm Thiết Kế Website</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button>
+                <div class="inner-bar" id="inner-bar"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+    <div class="menu" id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="/xaydungweb">Xây dựng Website</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/xaydungweb">Thiết Kế Website</a></li>
+                    <li><a href="/khogiaodien">Kho Giao Diện</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/thietkelogo">Thiết Kế Đồ Họa</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/thietkelogo">Thiết kế Logo</a></li>
+                    <li><a href="/banhang">Bộ nhận diện thương hiệu</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Cộng tác</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="">Chương trình đại lý</a></li>
+                    <li><a href="">Cộng tác viên</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/blog">Blog</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="">Tổng hợp</a></li>
+                    <li><a href="">Lập trình</a></li>
+                    <li><a href="">Cách bán hàng trên website</a></li>
+                    <li><a href="">Bí quyết làm SEO</a></li>
+                    <li><a href="">Kinh nghiệm thiết kế website</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Liên Hệ</a>
+            </li>
+        </ul>
+        <div class="inner-logo">
+            <img src="/static/assets/image/logo.svg" alt="">
+        </div>
+        <div class="buttonClose" id="buttonClose"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    <!--end header -->
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="/static/assets/image/logo.svg" alt="">
+          <h2>Gửi yêu cầu tư vấn miễn phí</h2>
+          <p>38.000+ doanh nghiệp & chủ shop đã tin dùng    </p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Họ và tên">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Số điện thoại">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Lĩnh vực kinh doanh">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="button">Gửi Yêu Cầu</button>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- logo1 -->
+    <div class="logo1">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-content">
+                    <h2>Thiết kế Logo
+                        nâng tầm thương hiệu</h2>
+                    <p>Bất kì công ty, doanh nghiệp hoặc cá nhân nào cũng cần có logo riêng vì nó được xem là một chất
+                        liệu để tuyên truyền, quảng cáo và được hiểu như một yếu tố thể hiện bộ mặt của một thương hiệu
+                        trên thị trường. Dịch vụ thiết kế Logo của Daca sẽ mang đến cho bạn:</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i>Cam kết thời gian bàn giao</li>
+                        <li><i class="fa-solid fa-check"></i>Nhiều phương án để lựa chọn</li>
+                        <li><i class="fa-solid fa-check"></i>Chi phí hợp lý</li>
+                    </ul>
+                    <button type="button" class="btn btn-primary button button2" data-toggle="modal" data-target="#exampleModal">Yêu cầu tư vấn</button>
+                </div>
+                <div class="inner-image">
+                    <img src="/static/assets/image/dlogo-intro.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- logo2 -->
+    <div class="logo2">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-title">
+                    <h2>Ưu điểm dịch vụ thiết kế logo tại Daca</h2>
+                    <p>"Chúng tôi không chỉ làm hài lòng bạn, chúng tôi còn mong muốn làm cho khách hàng của bạn hài
+                        lòng với bạn"</p>
+                </div>
+                <div class="inner-content">
+                    <div class="inner-box">
+                        <h2 class="inner-title">Uy tín</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/uy-tin.png" alt="">
+                        </div>
+                        <p class="inner-desc">Được chứng thực bởi hàng trăm dự án thực tế cho doanh nghiệp trong và
+                            ngoài nước</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Kinh nghiệm</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/kinh-nghiem.png" alt="">
+                        </div>
+                        <p class="inner-desc">Thiết kế logo đa dạng, nhiều ngành nghề, lĩnh vực khác nhau</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Độc đáo</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/doc-dao.png" alt="">
+                        </div>
+                        <p class="inner-desc">Phong cách thiết kế sáng tạo, độc đáo, mang đặc trưng riêng biệt, khó lẫn
+                            vào biển thông tin hiện nay</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Đúng hẹn</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/dung-hen.png" alt="">
+                        </div>
+                        <p class="inner-desc">Quy trình làm việc chuyên nghiệp, đảm bảo đúng thời hạn cho các dự án</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Thấu hiểu</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/thau-hieu.png" alt="">
+                        </div>
+                        <p class="inner-desc">Chúng tôi lắng nghe để thấu hiểu về thương hiệu như chính bạn và tạo ra
+                            mẫu logo trọn vẹn nhất mà bạn tìm kiếm bấy lâu</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Hỗ trợ</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/ho-tro.png" alt="">
+                        </div>
+                        <p class="inner-desc">Daca luôn sẵn sàng hỗ trợ khách hàng trước, trong và sau dịch vụ để khách
+                            hàng có được trải nghiệm tốt nhất</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Tối ưu</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/toi-uu.png" alt="">
+                        </div>
+                        <p class="inner-desc">Hiệu quả được tối ưu từ chất lượng nhân lực và quy trình khoa học cho phép
+                            Daca thiết kế logo với mức chi phí tốt nhất</p>
+                    </div>
+                    <div class="inner-box">
+                        <h2 class="inner-title">Chuyên sâu</h2>
+                        <div class="inner-image">
+                            <span class="inner-border"></span>
+                            <img src="/static/assets/image/chuyen-sau.png" alt="">
+                        </div>
+                        <p class="inner-desc">Đội ngũ nhân sự sáng tạo, tâm huyết, giàu kiến thức về thương hiệu, có con
+                            mắt thẩm mỹ sắc bén</p>
+                    </div>
+                </div>
+                <div class="inner-button"><button type="button" class="btn btn-primary button button2" data-toggle="modal" data-target="#exampleModal">Yêu Cầu Tư Vấn</button></div>
+            </div>
+        </div>
+    </div>
+    <!-- logo3 -->
+    <div class="logo3">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-title">
+                    <h2>Các gói dịch vụ thiết kế logo tại Daca</h2>
+                    <p>"Chúng tôi không chỉ làm hài lòng bạn, chúng tôi còn mong muốn làm cho khách hàng của bạn hài
+                        lòng với bạn"</p>
+                </div>
+                <div class="inner-content">
+                    <div class="inner-box">
+                        <div class="inner-header">
+                            <h2>CƠ BẢN</h2>
+                            <p>Dành cho doanh nghiệp mới</p>
+                            <h3>899.000đ</h3>
+                        </div>
+                        <div class="inner-body">
+                            <ul>
+                                <li>1 mẫu Logo</li>
+                                <li>3 lần chỉnh sửa</li>
+                                <li>2 phối màu theo yêu cầu</li>
+                                <li>Định dạng AI, PSD, PNG</li>
+                                <li>Không có bộ quy chuẩn</li>
+                                <li>Thực hiện trong 3 ngày</li>
+                            </ul>
+                        </div>
+                        <div class="inner-footer"><button class="button">Đăng Ký</button></div>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-header">
+                            <h2>NÂNG CAO</h2>
+                            <p>Dành cho doanh nghiệp đã phát triển ổn định</p>
+                            <h3>1.900.000đ</h3>
+                        </div>
+                        <div class="inner-body">
+                            <ul>
+                                <li>2 mẫu Logo</li>
+                                <li>6 lần chỉnh sửa</li>
+                                <li>4 phối màu theo yêu cầu</li>
+                                <li>Định dạng AI, PSD, PNG</li>
+                                <li>Không có bộ quy chuẩn</li>
+                                <li>Thực hiện trong 5 ngày</li>
+                            </ul>
+                        </div>
+                        <div class="inner-footer"><button class="button">Đăng Ký</button></div>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-header">
+                            <h2>CAO CẤP</h2>
+                            <p>Dành cho Tổng công ty, tập đoàn đa lĩnh vực</p>
+                            <h3>4.900.000đ</h3>
+                        </div>
+                        <div class="inner-body">
+                            <ul>
+                                <li>3 mẫu Logo</li>
+                                <li>10 lần chỉnh sửa</li>
+                                <li>6 phối màu theo yêu cầu</li>
+                                <li>Định dạng AI, PSD, PNG</li>
+                                <li>Bộ quy chuẩn cơ bản</li>
+                                <li>Thực hiện trong 10 ngày</li>
+                            </ul>
+                        </div>
+                        <div class="inner-footer"><button class="button">Đăng Ký</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- logo4 -->
+    <div class="logo4">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-title">
+                    <h2>Quy trình thiết kế Logo tại Daca</h2>
+                    <p>Tại Daca, chúng tôi áp dụng quy trình thiết kế logo 5 bước chuyên nghiệp để đảm bảo mang lại sự
+                        thành công cho dự án của bạn</p>
+                </div>
+                <div class="inner-content">
+                    <div class="inner-box">
+                        <div class="inner-image">
+                            <i class="fa-regular fa-comment-dots"></i>
+                            <div class="inner-number">
+                                <p>01</p>
+                            </div>
+                        </div>
+                        <h2>Bạn cung cấp thông tin</h2>
+                        <p>Màu sắc - Ngành nghề kinh doanh - Tên công ty - Slogan (nếu có)</p>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image">
+                            <i class="fa-solid fa-pen-nib"></i>
+                            <div class="inner-number">
+                                <p>02</p>
+                            </div>
+                        </div>
+                        <h2>Daca thiết kế logo</h2>
+                        <p>Chúng tôi sẽ bắt đầu thiết kế Logo dựa trên thông tin bạn cung cấp</p>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image">
+                            <i class="fa-regular fa-heart"></i>
+                            <div class="inner-number">
+                                <p>03</p>
+                            </div>
+                        </div>
+                        <h2>Bạn chọn phương án ưng ý nhất</h2>
+                        <p>Từ danh sách logo mà Daca đã thiết kế dựa vào thông tin ban đầu</p>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image">
+                            <i class="fa-solid fa-pencil"></i>
+                            <div class="inner-number">
+                                <p>04</p>
+                            </div>
+                        </div>
+                        <h2>Daca chỉnh sửa hoàn thiện lần cuối</h2>
+                        <p>Chúng tôi sẽ điều chỉnh Logo sao cho phù hợp và vừa vặn nhất với thương hiệu và mong muốn của
+                            bạn</p>
+                    </div>
+                    <div class="inner-box">
+                        <div class="inner-image">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <div class="inner-number">
+                                <p>05</p>
+                            </div>
+                        </div>
+                        <h2>Daca gửi bạn Logo gốc</h2>
+                        <p>Chúng tôi sẽ bàn giao file thiết kế gốc (định dại AI, PSD, PNG), hoàn thành dự án</p>
+                    </div>
+                </div>
+                <div class="inner-button"><button type="button" class="btn btn-primary button button2" data-toggle="modal" data-target="#exampleModal">Yêu Cầu Tư Vấn</button></div>
+            </div>
+        </div>
+        <!-- logo5 -->
+        <div class="logo5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 inner-main">
+                        <div class="inner-head">
+                            <h2 class="inner-title">Câu hỏi thường gặp</h2>
+                        </div>
+                        <div class="inner-body">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left" type="button"
+                                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Logo là gì?
+                                            </button>
+                                        </h2>
+                                    </div>
+    
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Logo là một hình ảnh đại diện thương hiệu được có thể được tạo thành từ văn bản
+                                            và biểu tượng. Một logo tốt thể hiện những gì một thương hiệu làm và giá trị của
+                                            thương hiệu.
+                                            Thiết kế logo là việc tạo ra hình ảnh thương hiệu trực quan hoàn hảo cho một
+                                            công ty. Tùy thuộc vào loại logo, logo có thể bao gồm biểu tượng, tên thương
+                                            hiệu tên viết tắt cùng với dòng giới thiệu (tagline). <code>.show</code> class.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                Vì sao cần thiết kế Logo chuyên nghiệp?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Logo là điểm chạm đầu tiên với khách hàng và là nền tảng để xây dựng thương hiệu
+                                            bền vững.
+                                            Thiết kế Logo chuyên nghiệp là cách đảm bảo logo của doanh nghiệp được xây dựng
+                                            dựa trên mục tiêu doanh nghiệp, có định hướng và gắn kết với khách hàng mục
+                                            tiêu.
+                                            Thiết kế Logo chuyên nghiệp giúp doanh nghiệp:
+                                            - An tâm đầu tư xây dựng thương hiệu bài bản
+                                            - Đảm bảo tính ứng dụng, linh hoạt
+                                            -Thu hút khách hàng
+                                            -Thúc đẩy lòng trung thành thương hiệu
+                                            - Nổi bật hơn so với đối thủ
+                                            - Gia tăng giá trị thương hiệu
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                Một Logo công ty đủ tốt là như thế nào?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Một logo công ty tốt làm được ba điều:
+                                            1. Logo cho khách hàng tiềm năng biết liệu sản phẩm có phù hợp với họ hay không
+                                            2. Logo truyền đạt những gì thương hiệu của bạn đại diện
+                                            3. Logo khiến khách hàng nhớ đến thương hiệu của bạn.
+                                            Và cách tốt nhất để thiết kế thiết kế nên một Logo công ty tốt là tìm sự hỗ trợ
+                                            của chuyên gia. Dựa trên mục tiêu của bạn, các chuyên gia sẽ có thể đề xuất loại
+                                            biểu tượng, màu sắc phù hợp, hình dạng và phông chữ hỗ trợ truyền tải thông điệp
+                                            thương hiệu.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            Các công ty khác tạo Logo bằng cách nào?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+    
+                                        Hầu hết các công ty có thể tạo Logo theo một trong bốn cách:
+                                        1. Thuê đơn vị thiết kế
+                                        2. Thuê một nhà thiết kế tự do
+                                        3. Tự làm với nhà thiết kế nội bộ
+                                        4. Tạo cuộc thi thiết kế
+                                        Mỗi lựa chọn đều có ưu điểm và nhược điểm, nhưng Daca nghĩ rằng bạn nên thuê một đơn
+                                        vị thiết kế bởi kinh nghiệm và uy tín của họ cũng như quy trình làm việc chặt chẽ
+                                        của họ sẽ giúp bạn đảm bảo hoàn thành nhiều mục tiêu mong đợi.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFive">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                            Ai sở hữu bản quyền tác giả logo?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Bạn chính là đơn vị sở hữu bản quyền tác giả logo. Sau khi dự án thiết kế Logo hoàn thành, Daca sẽ hỗ trợ bạn đăng ký bản quyền tác giả tại Cục Bản quyền tác giả.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                            aria-controls="collapseSix">
+                                            Tôi có thể có các biến thể bổ sung của logo không?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Daca thường tạo ra các biến thể logo phổ biến để bạn có thể sử dụng ngay. Kèm theo đó là hướng dẫn sử dụng và file thiết kế để bạn có thể dễ dàng tạo thêm biến thể theo ý muốn.
+Trường hợp biến thể đặc biệt, bạn nên gửi yêu cầu sớm để các nhà thiết kế của Daca tạo sẵn giúp bạn.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSeven">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
+                                            aria-controls="collapseSeven">
+                                            Tôi nên làm gì để bắt đầu thiết kế Logo?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Bạn vui lòng liên hệ ngay qua số Hotline: 0868 219 908 hoặc điền vào đơn đăng ký nhận tư vấn.
+Đội ngũ chuyên gia sẽ liên lạc với bạn ngay trong thời gian sớm nhất, đem lại giải pháp hữu ích phù hợp với doanh nghiệp.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- logo6 -->
+        <div class="logo6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="inner-main">
+                            <div class="inner-head">
+                                <h2 class="inner-title">Kết nối ngay với Daca</h2>
+                                <p class="inner-desc">Chúng tôi luôn sẵn sàng lắng nghe và đưa ra giải pháp phù hợp nhất cho vấn đề của bạn.</p>
+                            </div>
+                            <div class="inner-body">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Họ và tên*">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Số điện thoại*">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="form-group">
+                                            <textarea type="text" class="form-control" placeholder="Nội dung"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 text-center">
+                                        <button class="button">
+                                            Đăng ký tư vấn
+                                        </button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <!-- section6 -->
+        <div class="section6">
+            <div class="container">
+                <div class="inner-title">
+                    <h2>Gửi yêu cầu tư vấn miễn phí</h2>
+                    <p>DACA – Công Ty Thiết Kế Website Uy Tín, Chuyên Nghiệp, Chuẩn SEO</p>
+                </div>
+                <div class="inner-content">
+                    <form id="formTwo" class="formTwo">
+                        <input type="phoneTwo" id="phoneTwo" class="inner-phone" placeholder="Số điện thoại cần tư vấn">
+                        <button class="button button1" type="submit">Đăng Ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- section6 -->
+            <!-- section7 -->
+            <div class="section7">
+                <div class="container">
+                    <div class="inner-content">
+                        <div class="inner-box">
+                            <h2>Liên hệ</h2>
+                            <p>Công Ty TNHH Công Nghệ Và Dịch Vụ DACA</p>
+                            <p>Địa chỉ:T. Phú Lương Thượng - Quảng Phú Cầu - Ứng Hòa - Hà Nội</p>
+                            <p>Hotline:0344 570 115</p>
+                            <p>Email:contact@daca.vn</p>
+                            <p>Giấy phép kinh doanh số:0109971659 do Sở kế hoạch và Đầu tư Tp. Hà nội cấp ngày
+                                20/04/2022
+                            </p>
+                        </div>
+                        <div class="inner-box">
+                            <h2>Daca.vn</h2>
+                            <a href="#">
+                                <p>Về chúng tôi</p>
+                            </a>
+                            <a href="#">
+                                <p>Bảng giá Website</p>
+                            </a>
+                            <a href="#">
+                                <p>Chương trình đại lý</p>
+                            </a>
+                            <a href="#">
+                                <p>Cộng tác viên</p>
+                            </a>
+                            <a href="#">
+                                <p>Blog Daca</p>
+                            </a>
+                            <a href="#">
+                                <p>Liên hệ</p>
+                            </a>
+                        </div>
+                        <div class="inner-box">
+                            <h2>Thiết kế website</h2>
+                            <a href="#">
+                                <p>Thiết kế Mỹ phẩm</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế web Thời trang</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế web Nội thất</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế web Công nghệ</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế website mẹ và bé</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế web Giáo dục</p>
+                            </a>
+                        </div>
+                        <div class="inner-box">
+                            <h2>Trợ giúp</h2>
+                            <a href="#">
+                                <p>Tài liệu hướng dẫn</p>
+                            </a>
+                            <a href="#">
+                                <p>Hướng dẫn thanh toán</p>
+                            </a>
+                            <a href="#">
+                                <p>Chính sách bảo mật thông tin</p>
+                            </a>
+                            <a href="#">
+                                <p>Điều khoản sử dụng</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="inner-contact">
+                        <div class="inner-box">
+                            <h2>Địa chỉ:</h2>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8139388581217!2d105.83992427503058!3d21.000094180642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac71752d8f79%3A0xd2ec575c01017afa!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIFThur8gUXXhu5FjIETDom4gKE5FVSk!5e0!3m2!1svi!2s!4v1742976642235!5m2!1svi!2s"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section7 -->
+            <!-- section8 -->
+            <div class="section8">
+                <div class="container">
+                    <h2>Copyright 2022 Daca.vn - All Rights Reserved</h2>
+                </div>
+            </div>
+            <!-- end-section8 -->
+        </footer>
+        <!-- footer -->
+        <div class="contact">
+            <ul class="contact-list">
+                <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+
+        <script src="/static/assets/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="/static/assets/js/slick.min.js"></script>
+        <script src="/static/assets/js/script.js"></script>
+</body>
+
+</html>

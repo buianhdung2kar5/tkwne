@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Codecademy",
+      "description": "Nền tảng học lập trình tương tác với các bài học từ cơ bản đến nâng cao về Python, JavaScript, HTML, SQL và nhiều ngôn ngữ khác.",
+      "features": [
+        "Học qua trình biên dịch trực tuyến không cần cài đặt.",
+        "Cung cấp chứng chỉ khi hoàn thành khóa học.",
+        "Lộ trình học rõ ràng từ cơ bản đến nâng cao.",
+        "Hỗ trợ nhiều ngôn ngữ: Python, JS, SQL, C++, Java, HTML/CSS."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/codecademy.png",
+      "link": "https://www.codecademy.com/"
+    },
+    {
+      "name": "freeCodeCamp",
+      "description": "Trang học lập trình hoàn toàn miễn phí, với hàng ngàn giờ thực hành và dự án thực tế.",
+      "features": [
+        "Học lập trình web từ HTML, CSS, JS đến backend.",
+        "Bài tập thực hành và chứng chỉ miễn phí.",
+        "Thư viện video học tập đồ sộ trên YouTube.",
+        "Cộng đồng người học toàn cầu hỗ trợ lẫn nhau."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/freecodecamp.png",
+      "link": "https://www.freecodecamp.org/"
+    },
+    {
+      "name": "LeetCode",
+      "description": "Trang luyện thuật toán hàng đầu cho dân lập trình, đặc biệt cho các kỳ phỏng vấn tại công ty lớn như Google, Facebook.",
+      "features": [
+        "Hơn 2500 bài tập thuật toán và cấu trúc dữ liệu.",
+        "Giao diện biên dịch online tiện lợi.",
+        "Hỗ trợ nhiều ngôn ngữ: C++, Java, Python, Go, v.v.",
+        "Chế độ phỏng vấn giả lập với đếm thời gian."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/leetcode.png",
+      "link": "https://leetcode.com/"
+    },
+    {
+      "name": "HackerRank",
+      "description": "Nền tảng luyện code kèm theo hệ thống đánh giá điểm số, thích hợp cho sinh viên và phỏng vấn tuyển dụng.",
+      "features": [
+        "Bài tập đa lĩnh vực: algorithms, SQL, AI, Java, Python.",
+        "Có phần luyện phỏng vấn mô phỏng thực tế.",
+        "Xếp hạng toàn cầu theo điểm số.",
+        "Tạo hồ sơ portfolio online."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/hackerrank.png",
+      "link": "https://www.hackerrank.com/"
+    },
+    {
+      "name": "W3Schools",
+      "description": "Website học lập trình phổ biến, nội dung dễ hiểu, thích hợp cho người mới bắt đầu học web.",
+      "features": [
+        "Học HTML, CSS, JavaScript, SQL, Python,...",
+        "Có công cụ Try-It Editor để chạy thử code.",
+        "Cung cấp chứng chỉ sau khi hoàn thành.",
+        "Rất dễ đọc và thân thiện cho người mới bắt đầu."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/w3schools.png",
+      "link": "https://www.w3schools.com/"
+    },
+    {
+      "name": "The Odin Project",
+      "description": "Dự án mã nguồn mở giúp bạn học full-stack web development miễn phí với roadmap rõ ràng.",
+      "features": [
+        "Lộ trình học HTML, CSS, JS, Node.js, Git, React,...",
+        "Bài học và dự án thật hoàn toàn miễn phí.",
+        "Học từ cơ bản đến nâng cao theo từng module.",
+        "Cộng đồng học tập tích cực trên Discord."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/theodinproject.png",
+      "link": "https://www.theodinproject.com/"
+    },
+    {
+      "name": "SoloLearn",
+      "description": "App học lập trình trên điện thoại, có điểm kinh nghiệm và bảng xếp hạng hấp dẫn.",
+      "features": [
+        "Hỗ trợ nhiều ngôn ngữ: Python, Java, C++, JS, SQL,...",
+        "Chế độ học quiz ngắn, dễ nhớ.",
+        "Cộng đồng giải đáp và chia sẻ mã nguồn.",
+        "Học mọi lúc mọi nơi qua mobile app."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/sololearn.png",
+      "link": "https://www.sololearn.com/"
+    },
+    {
+      "name": "Exercism",
+      "description": "Trang học lập trình thực chiến qua mentor hướng dẫn từng bước, hoàn toàn miễn phí.",
+      "features": [
+        "Có hơn 60 ngôn ngữ để luyện tập.",
+        "Mentor chấm và góp ý bài làm miễn phí.",
+        "Tập trung thực hành thay vì lý thuyết.",
+        "Tải bài về làm offline bằng CLI."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/exercism.png",
+      "link": "https://exercism.org/"
+    },
+    {
+      "name": "EdX (CS50)",
+      "description": "Khoá học CS50 của Harvard – nền tảng vững chắc về lập trình, được hàng triệu người theo học.",
+      "features": [
+        "Kiến thức nền tảng về thuật toán, C, Python, SQL,...",
+        "Video chất lượng cao kèm phụ đề đa ngôn ngữ.",
+        "Hệ thống submit bài tự động.",
+        "Học hoàn toàn miễn phí, có chứng chỉ nếu trả phí."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/edxcs50.png",
+      "link": "https://cs50.harvard.edu/"
+    },
+    {
+      "name": "Scrimba",
+      "description": "Scrimba cung cấp khoá học lập trình qua video tương tác, cho phép chỉnh sửa mã nguồn ngay trên video.",
+      "features": [
+        "Video học tương tác – có thể sửa code ngay trong video.",
+        "Khoá học về React, JavaScript, HTML, CSS,...",
+        "Cộng đồng học tập và mentor giúp đỡ.",
+        "Lộ trình trở thành lập trình viên front-end."
+      ],
+      "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10code/scrimba.png",
+      "link": "https://scrimba.com/"
+    }
+  ]
+  

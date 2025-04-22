@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Chat GPT (OpenAI)",
+    "description": "Công cụ này hoạt động giống như một cuộc trò chuyện giữa người với người. Thay vì tìm kiếm thông tin trên Google như truyền thống. ChatGPT giúp con người tìm ra được câu trả tường tận chỉ sau vài giây.",
+    "features": [
+      "Debug và tối ưu hóa mã nguồn: Phân tích, tìm lỗi và đề xuất cải tiến giúp mã chạy nhanh hơn, ít bug hơn.",
+      "Hướng dẫn cài đặt môi trường lập trình: Hỗ trợ thiết lập Python, Node.js, Java, C++, Docker, v.v.",
+      "Hỗ trợ nhiều ngôn ngữ lập trình như: Python, JavaScript, Java, C++, v.v.",
+      "Chuyển đổi mã nguồn giữa các ngôn ngữ như: Dịch code từ Python sang Java, từ JavaScript sang TypeScript, v.v."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/chatgpt.png",
+    "link": "https://chat.openai.com/"
+  },
+  {
+    "name": "Gemini",
+    "description": "Gemini là nền tảng chatbot AI được tích hợp trên hệ sinh thái Google, giúp người dùng làm việc nhanh chóng hơn, tận dụng tối đa công cụ của Google.",
+    "features": [
+      "Debug và tối ưu hóa mã nguồn: Phân tích, tìm lỗi và đề xuất cải tiến giúp mã chạy nhanh hơn, ít bug hơn.",
+      "Hướng dẫn cài đặt môi trường lập trình: Hỗ trợ thiết lập Python, Node.js, Java, C++, Docker, v.v.",
+      "Hỗ trợ nhiều ngôn ngữ lập trình như: Python, JavaScript, Java, C++, v.v.",
+      "Chuyển đổi mã nguồn giữa các ngôn ngữ như: Dịch code từ Python sang Java, từ JavaScript sang TypeScript, v.v."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/gemini.png",
+    "link": "https://gemini.google.com"
+  },
+  {
+    "name": "Microsoft Copilot",
+    "description": "Microsoft Copilot tích hợp vào Word, Excel, Teams,... hỗ trợ giao tiếp và tự động hóa các tác vụ trong công việc hàng ngày.",
+    "features": [
+      "Khả năng tạo ảnh nhanh, không giới hạn.",
+      "Trợ lý cá nhân & giao tiếp hiệu quả: ghi chú trong khi họp Teams.",
+      "Hỗ trợ nhiều ngôn ngữ lập trình như: Python, JavaScript, Java, C++, v.v.",
+      "Chuyển đổi mã nguồn giữa các ngôn ngữ như: Python sang Java, JS sang TypeScript, v.v."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/copilot.png",
+    "link": "https://apps.microsoft.com/detail/9nht9rb2f4hd?hl=en-US&gl=US"
+  },
+  {
+    "name": "Character AI",
+    "description": "Character.AI là một startup AI cho phép tạo và tương tác với nhân vật ảo có tính cách và câu chuyện riêng.",
+    "features": [
+      "Tạo và tương tác với nhân vật ảo theo ý muốn.",
+      "Trải nghiệm cuộc trò chuyện AI đa dạng và tự nhiên.",
+      "Cho phép tạo nhân vật với tính cách và câu chuyện riêng.",
+      "Cung cấp môi trường sáng tạo và giải trí phong phú."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/character.png",
+    "link": "https://character.ai/"
+  },
+  {
+    "name": "Deep AI",
+    "description": "Deep AI cung cấp nhiều API AI như xử lý hình ảnh, tạo văn bản, và phân tích dữ liệu, giúp tích hợp AI vào ứng dụng.",
+    "features": [
+      "Tạo ảnh từ mô tả văn bản bằng AI.",
+      "Xử lý ngôn ngữ tự nhiên mạnh mẽ.",
+      "Cung cấp API dễ sử dụng cho lập trình viên.",
+      "Phân tích và nhận diện hình ảnh."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/deepai.png",
+    "link": "https://deepai.org/"
+  },
+  {
+    "name": "Spicy AI",
+    "description": "Spicy AI là chatbot AI mạnh mẽ hỗ trợ viết nội dung sáng tạo, dịch ngôn ngữ, và tạo nội dung độc đáo.",
+    "features": [
+      "Viết nội dung sáng tạo như bài blog, thơ, và kịch bản.",
+      "Hỗ trợ dịch thuật nhiều ngôn ngữ.",
+      "Cung cấp API cho nhà phát triển.",
+      "Gợi ý và sửa lỗi văn bản."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/spicyai.png",
+    "link": "https://spicyai.com/"
+  },
+  {
+    "name": "Yodayo AI Chat",
+    "description": "Yodayo AI Chat là chatbot AI hỗ trợ sáng tạo nội dung liên quan đến anime và manga.",
+    "features": [
+      "Hỗ trợ tạo nội dung liên quan đến anime, manga.",
+      "Tạo hình ảnh anime từ mô tả.",
+      "Chatbot thông minh với nhiều chế độ trò chuyện.",
+      "Gợi ý nội dung viết truyện."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/yodayo.png",
+    "link": "https://yodayo.ai/"
+  },
+  {
+    "name": "Poe AI Chat",
+    "description": "Poe AI Chat do Quora phát triển, cho phép người dùng tương tác với nhiều mô hình AI khác nhau.",
+    "features": [
+      "Hỗ trợ nhiều mô hình AI trong cùng một nền tảng.",
+      "Giao diện thân thiện, dễ sử dụng.",
+      "Tích hợp AI giúp tìm kiếm và trả lời câu hỏi nhanh chóng.",
+      "Hỗ trợ lập trình viên với API mở rộng."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/poeai.png",
+    "link": "https://poe.com/"
+  },
+  {
+    "name": "Meta AI",
+    "description": "Meta AI là dự án của Meta với khả năng tạo văn bản, hình ảnh và các tác vụ AI khác, tích hợp sâu vào các nền tảng như Facebook, Instagram, WhatsApp.",
+    "features": [
+      "AI tiên tiến từ Meta, hỗ trợ đa ngôn ngữ.",
+      "Hỗ trợ sáng tạo nội dung và viết văn bản.",
+      "Tích hợp vào Facebook, Instagram, WhatsApp.",
+      "Tạo hình ảnh AI chất lượng cao."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/metaai.png",
+    "link": "https://meta.ai/"
+  },
+  {
+    "name": "Black Box AI",
+    "description": "Black Box AI là công cụ AI hỗ trợ lập trình viên gợi ý, phân tích mã nguồn và tối ưu hóa hiệu suất.",
+    "features": [
+      "Hỗ trợ gợi ý mã thông minh.",
+      "Debug mã và tìm lỗi nhanh chóng.",
+      "Chuyển đổi mã giữa các ngôn ngữ lập trình.",
+      "Phù hợp với nhiều môi trường phát triển."
+    ],
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/Top10ai/blackboxai.png",
+    "link": "https://www.blackbox.ai/"
+  }
+]

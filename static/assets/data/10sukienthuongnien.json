@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Vietnam Web Summit (VWS)",
+    "organizer": "TopDev",
+    "time": "Tháng 12 hàng năm",
+    "location": "Hà Nội và TP. Hồ Chí Minh",
+    "format": "Hội nghị kết hợp triển lãm",
+    "scale": "8.000 – 10.000 người tham dự",
+    "audience": "55% IT, 25% Business, 20% Marketing; 10% C-level & Entrepreneurs",
+    "link": "https://meetup.vn/detail/Vietnam-Web-Summit2024-444",
+    "image": "https://topdev.vn/blog/wp-content/uploads/2023/12/VWS2023-1.jpg"
+  },
+  {
+    "name": "Vietnam Mobile Summit (VMS)",
+    "organizer": "TopDev",
+    "time": "Tháng 6 hàng năm",
+    "location": "Hà Nội và TP. Hồ Chí Minh",
+    "format": "Hội nghị kết hợp triển lãm",
+    "scale": "5.000 – 7.000 người tham dự",
+    "audience": "55% IT, 25% Business, 20% Marketing; 10% C-level & Entrepreneurs",
+    "link": "",
+    "image": "https://topdev.vn/blog/wp-content/uploads/2022/06/vietnam-mobile-summit-topdev.jpg"
+  },
+  {
+    "name": "Vietnam Innovation Summit (VIS)",
+    "organizer": "InnoLab Asia",
+    "time": "Tháng 11 hàng năm",
+    "location": "TP. Hồ Chí Minh và Hà Nội",
+    "format": "Hội nghị kết hợp triển lãm",
+    "scale": "1.000 – 2.000 người tham dự",
+    "audience": "Hơn 70% C-levels từ hơn 200 doanh nghiệp",
+    "link": "",
+    "image": "https://innoverse.asia/wp-content/uploads/2023/11/innovation-summit.jpg"
+  },
+  {
+    "name": "Techfest Vietnam",
+    "organizer": "Bộ Khoa học và Công nghệ",
+    "time": "Tháng 11 hàng năm",
+    "location": "Hà Nội và TP. Hồ Chí Minh",
+    "format": "Hội nghị kết hợp triển lãm, cuộc thi startup",
+    "scale": "7.000 – 10.000 người tham dự",
+    "audience": "Hơn 150 startup cùng hơn 50 nhà đầu tư",
+    "link": "",
+    "image": "https://techfest.vn/uploads/images/news/techfest-vietnam.jpg"
+  },
+  {
+    "name": "Vietnam Fintech Summit (VFS)",
+    "organizer": "Tuần lễ Fintech Việt Nam",
+    "time": "Tháng 10 hoặc 11 hàng năm",
+    "location": "TP. Hồ Chí Minh và Hà Nội",
+    "format": "Hội nghị kết hợp triển lãm",
+    "scale": "600 – 1.000 người tham dự",
+    "audience": "Các công ty khởi nghiệp, doanh nghiệp lớn, ngân hàng, quỹ đầu tư, chuyên gia tài chính",
+    "link": "",
+    "image": "https://media.vneconomy.vn/images/upload/2022/11/10/vietnam-fintech-forum-2022.jpg"
+  },
+  {
+    "name": "Vietnam AI Summit (AI4VN)",
+    "organizer": "Bộ Khoa học và Công nghệ, VnExpress, FISU",
+    "time": "Tháng 8 hoặc tháng 9 hàng năm",
+    "location": "TP. Hồ Chí Minh và Hà Nội",
+    "format": "Hội nghị kết hợp triển lãm và cuộc thi startup",
+    "scale": "1.000 – 2.000 người tham dự",
+    "audience": "Nhà nghiên cứu, chuyên gia, doanh nghiệp, sinh viên công nghệ",
+    "link": "",
+    "image": "https://static.ai4vn.vn/wp-content/uploads/2023/09/ai4vn-vietnam-2023.jpg"
+  },
+  {
+    "name": "DevDay (DD)",
+    "organizer": "Axon Active Việt Nam & Đại học Duy Tân",
+    "time": "Tháng 4 hàng năm",
+    "location": "Đà Nẵng",
+    "format": "Hội nghị, triển lãm, cuộc thi và hackathon",
+    "scale": "1.000 – 3.000 người tham dự",
+    "audience": "Lập trình viên, sinh viên CNTT, chuyên gia phần mềm",
+    "link": "",
+    "image": "https://devday.org/wp-content/uploads/2023/03/devdaydanang.jpg"
+  },
+  {
+    "name": "Google I/O Extended Vietnam",
+    "organizer": "Cộng đồng Google Developer",
+    "time": "Tháng 5 – 6 hàng năm",
+    "location": "Hà Nội, TP. Hồ Chí Minh, Đà Nẵng",
+    "format": "Hội nghị kết hợp workshop trải nghiệm công nghệ",
+    "scale": "500 – 1.500 người tham dự",
+    "audience": "Cộng đồng khởi nghiệp, lập trình viên, sinh viên, người yêu công nghệ Google",
+    "link": "",
+    "image": "https://developers.google.com/io/images/social-share-2023.png"
+  },
+  {
+    "name": "Vietnam Security Summit",
+    "organizer": "Bộ Thông tin và Truyền thông",
+    "time": "Tháng 4 hàng năm",
+    "location": "Hà Nội",
+    "format": "Hội nghị kết hợp triển lãm",
+    "scale": "700 – 1.000 người tham dự",
+    "audience": "21% Governments, 70% Enterprises (trong đó 39% C-levels)",
+    "link": "",
+    "image": "https://www.vietnamsecuritysummit.vn/storage/images/2023/banners/main-1.jpg"
+  },
+  {
+    "name": "Smart City Asia",
+    "organizer": "Exporum",
+    "time": "Tháng 8 hàng năm",
+    "location": "TP. Hồ Chí Minh",
+    "format": "Hội nghị kết hợp triển lãm",
+    "scale": "10.000 – 16.000 người tham dự",
+    "audience": "33% suppliers, 24% purchase, 23% market/trend survey",
+    "link": "",
+    "image": "https://smartcityasia.vn/wp-content/uploads/2024/02/smartcity-event.jpg"
+  }
+]

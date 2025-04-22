@@ -1,0 +1,242 @@
+[
+  {
+    "short_name": "HTML",
+    "full_name": "HyperText Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung của trang web. Tạo tiêu đề, đoạn văn, liên kết, hình ảnh, biểu mẫu,... trong trang web."
+  },
+  {
+    "short_name": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ định kiểu cho trang web, điều khiển màu sắc, bố cục, phông chữ, và hiệu ứng. Thiết kế giao diện, bố cục responsive, hiệu ứng chuyển động,..."
+  },
+  {
+    "short_name": "JS",
+    "full_name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "info": "Ngôn ngữ lập trình phía client giúp trang web tương tác, xử lý logic, và thao tác DOM. Xử lý sự kiện, xác thực biểu mẫu, tạo animation, gọi API,..."
+  },
+  {
+    "short_name": "DOM",
+    "full_name": "Document Object Model",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*L7cKD6pE-Y5U-5vZQAp7sA.png",
+    "info": "Mô hình tài liệu dạng cây cho phép JavaScript truy cập và thao tác nội dung HTML. Thêm/xóa/sửa phần tử HTML, thay đổi thuộc tính, xử lý sự kiện,..."
+  },
+  {
+    "short_name": "API",
+    "full_name": "Application Programming Interface",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*Ieqg3kWBWYZiPFe6RYY1Ww.jpeg",
+    "info": "Giao diện lập trình ứng dụng cho phép các hệ thống giao tiếp với nhau. Lấy dữ liệu từ server, kết nối dịch vụ bên ngoài (Facebook, Google, v.v.)"
+  },
+  {
+    "short_name": "HTML",
+    "full_name": "HyperText Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung của trang web. Tạo tiêu đề, đoạn văn, liên kết, hình ảnh, biểu mẫu,... trong trang web."
+  },
+  {
+    "short_name": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ định kiểu cho trang web, điều khiển màu sắc, bố cục, phông chữ, và hiệu ứng. Thiết kế giao diện, bố cục responsive, hiệu ứng chuyển động,..."
+  },
+  {
+    "short_name": "JS",
+    "full_name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "info": "Ngôn ngữ lập trình phía client giúp trang web tương tác, xử lý logic, và thao tác DOM. Xử lý sự kiện, xác thực biểu mẫu, tạo animation, gọi API,..."
+  },
+  {
+    "short_name": "DOM",
+    "full_name": "Document Object Model",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*L7cKD6pE-Y5U-5vZQAp7sA.png",
+    "info": "Mô hình tài liệu dạng cây cho phép JavaScript truy cập và thao tác nội dung HTML. Thêm/xóa/sửa phần tử HTML, thay đổi thuộc tính, xử lý sự kiện,..."
+  },
+  {
+    "short_name": "API",
+    "full_name": "Application Programming Interface",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*Ieqg3kWBWYZiPFe6RYY1Ww.jpeg",
+    "info": "Giao diện lập trình ứng dụng cho phép các hệ thống giao tiếp với nhau. Lấy dữ liệu từ server, kết nối dịch vụ bên ngoài (Facebook, Google, v.v.)"
+  },
+  {
+    "short_name": "HTML",
+    "full_name": "HyperText Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung của trang web. Tạo tiêu đề, đoạn văn, liên kết, hình ảnh, biểu mẫu,... trong trang web."
+  },
+  {
+    "short_name": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ định kiểu cho trang web, điều khiển màu sắc, bố cục, phông chữ, và hiệu ứng. Thiết kế giao diện, bố cục responsive, hiệu ứng chuyển động,..."
+  },
+  {
+    "short_name": "JS",
+    "full_name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "info": "Ngôn ngữ lập trình phía client giúp trang web tương tác, xử lý logic, và thao tác DOM. Xử lý sự kiện, xác thực biểu mẫu, tạo animation, gọi API,..."
+  },
+  {
+    "short_name": "DOM",
+    "full_name": "Document Object Model",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*L7cKD6pE-Y5U-5vZQAp7sA.png",
+    "info": "Mô hình tài liệu dạng cây cho phép JavaScript truy cập và thao tác nội dung HTML. Thêm/xóa/sửa phần tử HTML, thay đổi thuộc tính, xử lý sự kiện,..."
+  },
+  {
+    "short_name": "API",
+    "full_name": "Application Programming Interface",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*Ieqg3kWBWYZiPFe6RYY1Ww.jpeg",
+    "info": "Giao diện lập trình ứng dụng cho phép các hệ thống giao tiếp với nhau. Lấy dữ liệu từ server, kết nối dịch vụ bên ngoài (Facebook, Google, v.v.)"
+  },
+  {
+    "short_name": "HTML",
+    "full_name": "HyperText Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung của trang web. Tạo tiêu đề, đoạn văn, liên kết, hình ảnh, biểu mẫu,... trong trang web."
+  },
+  {
+    "short_name": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ định kiểu cho trang web, điều khiển màu sắc, bố cục, phông chữ, và hiệu ứng. Thiết kế giao diện, bố cục responsive, hiệu ứng chuyển động,..."
+  },
+  {
+    "short_name": "JS",
+    "full_name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "info": "Ngôn ngữ lập trình phía client giúp trang web tương tác, xử lý logic, và thao tác DOM. Xử lý sự kiện, xác thực biểu mẫu, tạo animation, gọi API,..."
+  },
+  {
+    "short_name": "DOM",
+    "full_name": "Document Object Model",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*L7cKD6pE-Y5U-5vZQAp7sA.png",
+    "info": "Mô hình tài liệu dạng cây cho phép JavaScript truy cập và thao tác nội dung HTML. Thêm/xóa/sửa phần tử HTML, thay đổi thuộc tính, xử lý sự kiện,..."
+  },
+  {
+    "short_name": "API",
+    "full_name": "Application Programming Interface",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*Ieqg3kWBWYZiPFe6RYY1Ww.jpeg",
+    "info": "Giao diện lập trình ứng dụng cho phép các hệ thống giao tiếp với nhau. Lấy dữ liệu từ server, kết nối dịch vụ bên ngoài (Facebook, Google, v.v.)"
+  },
+  {
+    "short_name": "HTML",
+    "full_name": "HyperText Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung của trang web. Tạo tiêu đề, đoạn văn, liên kết, hình ảnh, biểu mẫu,... trong trang web."
+  },
+  {
+    "short_name": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ định kiểu cho trang web, điều khiển màu sắc, bố cục, phông chữ, và hiệu ứng. Thiết kế giao diện, bố cục responsive, hiệu ứng chuyển động,..."
+  },
+  {
+    "short_name": "JS",
+    "full_name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "info": "Ngôn ngữ lập trình phía client giúp trang web tương tác, xử lý logic, và thao tác DOM. Xử lý sự kiện, xác thực biểu mẫu, tạo animation, gọi API,..."
+  },
+  {
+    "short_name": "DOM",
+    "full_name": "Document Object Model",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*L7cKD6pE-Y5U-5vZQAp7sA.png",
+    "info": "Mô hình tài liệu dạng cây cho phép JavaScript truy cập và thao tác nội dung HTML. Thêm/xóa/sửa phần tử HTML, thay đổi thuộc tính, xử lý sự kiện,..."
+  },
+  {
+    "short_name": "API",
+    "full_name": "Application Programming Interface",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*Ieqg3kWBWYZiPFe6RYY1Ww.jpeg",
+    "info": "Giao diện lập trình ứng dụng cho phép các hệ thống giao tiếp với nhau. Lấy dữ liệu từ server, kết nối dịch vụ bên ngoài (Facebook, Google, v.v.)"
+  },
+  {
+    "short_name": "HTML",
+    "full_name": "HyperText Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung của trang web. Tạo tiêu đề, đoạn văn, liên kết, hình ảnh, biểu mẫu,... trong trang web."
+  },
+  {
+    "short_name": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ định kiểu cho trang web, điều khiển màu sắc, bố cục, phông chữ, và hiệu ứng. Thiết kế giao diện, bố cục responsive, hiệu ứng chuyển động,..."
+  },
+  {
+    "short_name": "JS",
+    "full_name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "info": "Ngôn ngữ lập trình phía client giúp trang web tương tác, xử lý logic, và thao tác DOM. Xử lý sự kiện, xác thực biểu mẫu, tạo animation, gọi API,..."
+  },
+  {
+    "short_name": "DOM",
+    "full_name": "Document Object Model",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*L7cKD6pE-Y5U-5vZQAp7sA.png",
+    "info": "Mô hình tài liệu dạng cây cho phép JavaScript truy cập và thao tác nội dung HTML. Thêm/xóa/sửa phần tử HTML, thay đổi thuộc tính, xử lý sự kiện,..."
+  },
+  {
+    "short_name": "API",
+    "full_name": "Application Programming Interface",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*Ieqg3kWBWYZiPFe6RYY1Ww.jpeg",
+    "info": "Giao diện lập trình ứng dụng cho phép các hệ thống giao tiếp với nhau. Lấy dữ liệu từ server, kết nối dịch vụ bên ngoài (Facebook, Google, v.v.)"
+  },
+  {
+    "short_name": "HTML",
+    "full_name": "HyperText Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung của trang web. Tạo tiêu đề, đoạn văn, liên kết, hình ảnh, biểu mẫu,... trong trang web."
+  },
+  {
+    "short_name": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ định kiểu cho trang web, điều khiển màu sắc, bố cục, phông chữ, và hiệu ứng. Thiết kế giao diện, bố cục responsive, hiệu ứng chuyển động,..."
+  },
+  {
+    "short_name": "JS",
+    "full_name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "info": "Ngôn ngữ lập trình phía client giúp trang web tương tác, xử lý logic, và thao tác DOM. Xử lý sự kiện, xác thực biểu mẫu, tạo animation, gọi API,..."
+  },
+  {
+    "short_name": "DOM",
+    "full_name": "Document Object Model",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*L7cKD6pE-Y5U-5vZQAp7sA.png",
+    "info": "Mô hình tài liệu dạng cây cho phép JavaScript truy cập và thao tác nội dung HTML. Thêm/xóa/sửa phần tử HTML, thay đổi thuộc tính, xử lý sự kiện,..."
+  },
+  {
+    "short_name": "API",
+    "full_name": "Application Programming Interface",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*Ieqg3kWBWYZiPFe6RYY1Ww.jpeg",
+    "info": "Giao diện lập trình ứng dụng cho phép các hệ thống giao tiếp với nhau. Lấy dữ liệu từ server, kết nối dịch vụ bên ngoài (Facebook, Google, v.v.)"
+  },
+  {
+    "short_name": "HTML",
+    "full_name": "HyperText Markup Language",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ đánh dấu siêu văn bản, dùng để xây dựng cấu trúc nội dung của trang web. Tạo tiêu đề, đoạn văn, liên kết, hình ảnh, biểu mẫu,... trong trang web."
+  },
+  {
+    "short_name": "CSS",
+    "full_name": "Cascading Style Sheets",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+    "info": "Ngôn ngữ định kiểu cho trang web, điều khiển màu sắc, bố cục, phông chữ, và hiệu ứng. Thiết kế giao diện, bố cục responsive, hiệu ứng chuyển động,..."
+  },
+  {
+    "short_name": "JS",
+    "full_name": "JavaScript",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "info": "Ngôn ngữ lập trình phía client giúp trang web tương tác, xử lý logic, và thao tác DOM. Xử lý sự kiện, xác thực biểu mẫu, tạo animation, gọi API,..."
+  },
+  {
+    "short_name": "DOM",
+    "full_name": "Document Object Model",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*L7cKD6pE-Y5U-5vZQAp7sA.png",
+    "info": "Mô hình tài liệu dạng cây cho phép JavaScript truy cập và thao tác nội dung HTML. Thêm/xóa/sửa phần tử HTML, thay đổi thuộc tính, xử lý sự kiện,..."
+  },
+  {
+    "short_name": "API",
+    "full_name": "Application Programming Interface",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*Ieqg3kWBWYZiPFe6RYY1Ww.jpeg",
+    "info": "Giao diện lập trình ứng dụng cho phép các hệ thống giao tiếp với nhau. Lấy dữ liệu từ server, kết nối dịch vụ bên ngoài (Facebook, Google, v.v.)"
+  }
+]

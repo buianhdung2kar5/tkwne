@@ -1,0 +1,180 @@
+/* title1 */
+.title1{
+    background: linear-gradient(to right, #ffcc33, #ffb347);
+    padding: 50px;
+}
+.title1 .inner-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.title1 .inner-wrap .inner-image{
+    width: 50%;
+    height: auto;
+}
+.title1 .inner-wrap .inner-content{
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+.title1 .inner-wrap .inner-content h2{
+    color: var(--color-2);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.title1 .inner-wrap .inner-content li{
+    color: #333;
+    margin-bottom: 15px;
+}
+.title1 .inner-wrap .inner-content li i{
+    color: #390;
+    margin-right: 4px;
+    font-size: 18px;
+}
+@media (max-width:991.98px) {
+    .title1 .inner-wrap .inner-image{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .title1 .inner-wrap .inner-content{
+        width: 100%;
+    }
+}
+/* end-title1 */
+/* hight-light */
+.hightlight{
+    margin-bottom: 80px;
+}
+.hightlight .inner-wrap .inner-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hightlight .inner-wrap .inner-title h2{
+    color: #C2000C;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+}
+.hightlight .inner-wrap .inner-title h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+    position: absolute;
+    bottom: 0;
+    left: calc(100%/2 - 50px);
+}
+.hightlight .inner-wrap .inner-title p{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.812);
+}
+.hightlight .inner-wrap .inner-hightlight .inner-box{   
+    width: calc(100%/5 - 120px/5);
+    background: #f4f6f8;
+    border-radius: 12px;
+    margin-right: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+.hightlight .inner-wrap .inner-hightlight .inner-box:hover h2{
+    color: var(--color-1);
+}
+.hightlight .inner-wrap .inner-hightlight .inner-box:last-child{
+    margin-right: 0;
+}
+.hightlight .inner-wrap .inner-hightlight .inner-box .inner-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF7F00;
+    box-shadow: 0 0 0 8px #ffc0a7;
+    margin-bottom: 30px;
+}
+.hightlight .inner-wrap .inner-hightlight .inner-box .inner-image img{
+    width: 60px;
+    height: 60px;
+}
+.hightlight .inner-wrap .inner-hightlight .inner-box h2{
+    color: var(--color-2);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.hightlight .inner-wrap .inner-hightlight .inner-box p{
+    text-align: left;
+}
+/* hight-light */
+/* step */
+.step{
+    margin-bottom: 80px;
+}
+.step .inner-wrap .inner-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.step .inner-wrap .inner-title h2{
+    color: #C2000C;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+}
+.step .inner-wrap .inner-title h2::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+    position: absolute;
+    bottom: 0;
+    left: calc(100%/2 - 50px);
+}
+.step .inner-wrap .inner-title p{
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.812);
+}
+.step .inner-wrap .inner-step .inner-box{
+    background: #f4f6f8;
+    width: 210px;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 15px;
+    height: 400px;
+}
+.step .inner-wrap .inner-step .inner-box .inner-image{
+    width: 86px;
+    height: 86px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+    margin-bottom: 30px;
+}
+.step .inner-wrap .inner-step .inner-box .inner-image img{
+    width: 60px;
+    height: 60px;
+}
+.step .inner-wrap .inner-step .inner-box h2{
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.step .inner-wrap .inner-step .inner-box li{
+    margin-bottom: 15px;
+}
+/* step */
+

@@ -1,0 +1,167 @@
+/* Các thẻ đặc biệt */
+ul{
+    list-style-type: none;
+}
+a{
+    list-style-type: none;
+}
+/* Tiêu đề */
+.row .inner-title {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.row .inner-title h2 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Khung article */
+.row .inner-infor .new-articles {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0; /* Xóa padding để ảnh full khung */
+    margin-bottom: 15px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+/* Hình ảnh bên trong article */
+.row .inner-infor .new-articles .inner-image {
+    flex-shrink: 0;
+    width: 100px; /* Chiều rộng cố định */
+    height: 100px; /* Chiều cao cố định */
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Ảnh full khung */
+.row .inner-infor .new-articles .inner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Lấp đầy khung mà không méo */
+    border-radius: 10px 0 0 10px;
+    display: block;
+}
+
+/* Tạo dải màu cam khi hover */
+.row .inner-infor .new-articles .inner-image::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(245, 127, 32, 0.7), rgba(214, 43, 8, 0.7));
+    transition: width 0.5s ease-in-out;
+    opacity: 0.9;
+}
+
+/* Hover vào article thì dải màu cam chạy từ trái sang phải */
+.row .inner-infor .new-articles:hover .inner-image::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Nội dung */
+.row .inner-infor .new-articles .content-desc {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px; /* Thêm khoảng cách với ảnh */
+}
+
+/* Tiêu đề bài viết */
+.row .inner-infor .new-articles .content-desc a {
+    font-size: 12px;
+    font-weight: bolder;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp:2;
+    overflow: hidden;
+}
+
+/* Ngày tháng */
+.row .inner-infor .new-articles .content-desc .timeline {
+    font-weight: lighter;
+    font-size: 10px;
+    color: gray;
+}
+
+/* Hiệu ứng hover */
+.row .inner-infor .new-articles .content-desc a:hover {
+    color: #C43401;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #C43401;
+    text-decoration: none;
+}
+
+
+/* session-two */
+.article-item {
+    width: 100%;
+    height: 180px; /* hoặc tùy chỉnh theo ảnh + text */
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: #FEFAF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    
+  }
+  
+.article-item .inner-image{
+    width:100%;
+    height: 50%;
+    margin-bottom: 5px;
+}
+.article-item .inner-image a{
+    width:100%;
+    height:auto;
+}
+
+.article-item img {
+    max-height: 100px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+.article-item .inner-content .desc {
+    font-size: 12px;
+    font-weight: bolder;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 3 dòng */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3em;
+    max-height: calc(1.3em * 2); /* Tương đương 3 dòng */
+    margin-bottom: 5px;
+  }
+  
+/* end session-two */
+/* dấu chân trang */
+

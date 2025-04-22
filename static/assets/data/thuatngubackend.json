@@ -1,0 +1,302 @@
+[
+    {
+      "short_name": "Node.js",
+      "full_name": "Node.js Runtime",
+      "info": "Môi trường thực thi JavaScript phía server, giúp xây dựng ứng dụng web hiệu năng cao. Dùng để xử lý yêu cầu, thao tác file, truy cập database,...",
+      "image": "https://nodejs.org/static/images/logo.svg"
+    },
+    {
+      "short_name": "Express",
+      "full_name": "Express.js Framework",
+      "info": "Framework web nhẹ cho Node.js, giúp tạo API nhanh chóng và cấu trúc rõ ràng. Hỗ trợ middleware, routing, xử lý request/response dễ dàng.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+    },
+    {
+      "short_name": "REST API",
+      "full_name": "Representational State Transfer",
+      "info": "Kiểu thiết kế API phổ biến sử dụng HTTP để truy xuất tài nguyên. Dùng các phương thức GET, POST, PUT, DELETE cho frontend tương tác backend.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*9q_p9c4rKuycDJQXlsGdLg.png"
+    },
+    {
+      "short_name": "JWT",
+      "full_name": "JSON Web Token",
+      "info": "Chuỗi mã hóa dùng để xác thực người dùng giữa các lần request. Lưu thông tin đăng nhập an toàn trong localStorage/cookie.",
+      "image": "https://jwt.io/img/pic_logo.svg"
+    },
+    {
+      "short_name": "MongoDB",
+      "full_name": "MongoDB NoSQL Database",
+      "info": "Cơ sở dữ liệu NoSQL dạng tài liệu (document) phổ biến. Lưu dữ liệu dưới dạng JSON, dễ mở rộng, truy vấn linh hoạt.",
+      "image": "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png"
+    },
+    {
+      "short_name": "Mongoose",
+      "full_name": "Mongoose ODM",
+      "info": "Thư viện kết nối Node.js với MongoDB, hỗ trợ schema, validation, truy vấn đơn giản. Dễ quản lý dữ liệu theo mô hình object.",
+      "image": "https://avatars.githubusercontent.com/u/7552965?s=280&v=4"
+    },
+    {
+      "short_name": "SQL",
+      "full_name": "Structured Query Language",
+      "info": "Ngôn ngữ dùng để quản lý cơ sở dữ liệu quan hệ như MySQL, PostgreSQL. Dùng để tạo bảng, truy vấn, cập nhật và xóa dữ liệu.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+    },
+    {
+      "short_name": "MySQL",
+      "full_name": "MySQL Database",
+      "info": "Cơ sở dữ liệu quan hệ mã nguồn mở phổ biến, dùng rộng rãi trong hệ thống backend. Hỗ trợ SQL, tốc độ cao và tích hợp dễ dàng.",
+      "image": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
+    },
+    {
+      "short_name": "PostgreSQL",
+      "full_name": "PostgreSQL Database",
+      "info": "CSDL quan hệ mạnh mẽ, hỗ trợ SQL chuẩn và tính năng nâng cao. Thường dùng cho các hệ thống lớn, phức tạp.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+    },
+    {
+      "short_name": "ORM",
+      "full_name": "Object-Relational Mapping",
+      "info": "Kỹ thuật ánh xạ giữa object trong code và bảng trong cơ sở dữ liệu. Giúp thao tác với DB bằng ngôn ngữ lập trình mà không cần viết SQL.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Entity_relationship_model.svg"
+    },
+    {
+      "short_name": "Node.js",
+      "full_name": "Node.js Runtime",
+      "info": "Môi trường thực thi JavaScript phía server, giúp xây dựng ứng dụng web hiệu năng cao. Dùng để xử lý yêu cầu, thao tác file, truy cập database,...",
+      "image": "https://nodejs.org/static/images/logo.svg"
+    },
+    {
+      "short_name": "Express",
+      "full_name": "Express.js Framework",
+      "info": "Framework web nhẹ cho Node.js, giúp tạo API nhanh chóng và cấu trúc rõ ràng. Hỗ trợ middleware, routing, xử lý request/response dễ dàng.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+    },
+    {
+      "short_name": "REST API",
+      "full_name": "Representational State Transfer",
+      "info": "Kiểu thiết kế API phổ biến sử dụng HTTP để truy xuất tài nguyên. Dùng các phương thức GET, POST, PUT, DELETE cho frontend tương tác backend.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*9q_p9c4rKuycDJQXlsGdLg.png"
+    },
+    {
+      "short_name": "JWT",
+      "full_name": "JSON Web Token",
+      "info": "Chuỗi mã hóa dùng để xác thực người dùng giữa các lần request. Lưu thông tin đăng nhập an toàn trong localStorage/cookie.",
+      "image": "https://jwt.io/img/pic_logo.svg"
+    },
+    {
+      "short_name": "MongoDB",
+      "full_name": "MongoDB NoSQL Database",
+      "info": "Cơ sở dữ liệu NoSQL dạng tài liệu (document) phổ biến. Lưu dữ liệu dưới dạng JSON, dễ mở rộng, truy vấn linh hoạt.",
+      "image": "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png"
+    },
+    {
+      "short_name": "Mongoose",
+      "full_name": "Mongoose ODM",
+      "info": "Thư viện kết nối Node.js với MongoDB, hỗ trợ schema, validation, truy vấn đơn giản. Dễ quản lý dữ liệu theo mô hình object.",
+      "image": "https://avatars.githubusercontent.com/u/7552965?s=280&v=4"
+    },
+    {
+      "short_name": "SQL",
+      "full_name": "Structured Query Language",
+      "info": "Ngôn ngữ dùng để quản lý cơ sở dữ liệu quan hệ như MySQL, PostgreSQL. Dùng để tạo bảng, truy vấn, cập nhật và xóa dữ liệu.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+    },
+    {
+      "short_name": "MySQL",
+      "full_name": "MySQL Database",
+      "info": "Cơ sở dữ liệu quan hệ mã nguồn mở phổ biến, dùng rộng rãi trong hệ thống backend. Hỗ trợ SQL, tốc độ cao và tích hợp dễ dàng.",
+      "image": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
+    },
+    {
+      "short_name": "PostgreSQL",
+      "full_name": "PostgreSQL Database",
+      "info": "CSDL quan hệ mạnh mẽ, hỗ trợ SQL chuẩn và tính năng nâng cao. Thường dùng cho các hệ thống lớn, phức tạp.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+    },
+    {
+      "short_name": "ORM",
+      "full_name": "Object-Relational Mapping",
+      "info": "Kỹ thuật ánh xạ giữa object trong code và bảng trong cơ sở dữ liệu. Giúp thao tác với DB bằng ngôn ngữ lập trình mà không cần viết SQL.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Entity_relationship_model.svg"
+    },
+    {
+      "short_name": "Node.js",
+      "full_name": "Node.js Runtime",
+      "info": "Môi trường thực thi JavaScript phía server, giúp xây dựng ứng dụng web hiệu năng cao. Dùng để xử lý yêu cầu, thao tác file, truy cập database,...",
+      "image": "https://nodejs.org/static/images/logo.svg"
+    },
+    {
+      "short_name": "Express",
+      "full_name": "Express.js Framework",
+      "info": "Framework web nhẹ cho Node.js, giúp tạo API nhanh chóng và cấu trúc rõ ràng. Hỗ trợ middleware, routing, xử lý request/response dễ dàng.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+    },
+    {
+      "short_name": "REST API",
+      "full_name": "Representational State Transfer",
+      "info": "Kiểu thiết kế API phổ biến sử dụng HTTP để truy xuất tài nguyên. Dùng các phương thức GET, POST, PUT, DELETE cho frontend tương tác backend.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*9q_p9c4rKuycDJQXlsGdLg.png"
+    },
+    {
+      "short_name": "JWT",
+      "full_name": "JSON Web Token",
+      "info": "Chuỗi mã hóa dùng để xác thực người dùng giữa các lần request. Lưu thông tin đăng nhập an toàn trong localStorage/cookie.",
+      "image": "https://jwt.io/img/pic_logo.svg"
+    },
+    {
+      "short_name": "MongoDB",
+      "full_name": "MongoDB NoSQL Database",
+      "info": "Cơ sở dữ liệu NoSQL dạng tài liệu (document) phổ biến. Lưu dữ liệu dưới dạng JSON, dễ mở rộng, truy vấn linh hoạt.",
+      "image": "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png"
+    },
+    {
+      "short_name": "Mongoose",
+      "full_name": "Mongoose ODM",
+      "info": "Thư viện kết nối Node.js với MongoDB, hỗ trợ schema, validation, truy vấn đơn giản. Dễ quản lý dữ liệu theo mô hình object.",
+      "image": "https://avatars.githubusercontent.com/u/7552965?s=280&v=4"
+    },
+    {
+      "short_name": "SQL",
+      "full_name": "Structured Query Language",
+      "info": "Ngôn ngữ dùng để quản lý cơ sở dữ liệu quan hệ như MySQL, PostgreSQL. Dùng để tạo bảng, truy vấn, cập nhật và xóa dữ liệu.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+    },
+    {
+      "short_name": "MySQL",
+      "full_name": "MySQL Database",
+      "info": "Cơ sở dữ liệu quan hệ mã nguồn mở phổ biến, dùng rộng rãi trong hệ thống backend. Hỗ trợ SQL, tốc độ cao và tích hợp dễ dàng.",
+      "image": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
+    },
+    {
+      "short_name": "PostgreSQL",
+      "full_name": "PostgreSQL Database",
+      "info": "CSDL quan hệ mạnh mẽ, hỗ trợ SQL chuẩn và tính năng nâng cao. Thường dùng cho các hệ thống lớn, phức tạp.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+    },
+    {
+      "short_name": "ORM",
+      "full_name": "Object-Relational Mapping",
+      "info": "Kỹ thuật ánh xạ giữa object trong code và bảng trong cơ sở dữ liệu. Giúp thao tác với DB bằng ngôn ngữ lập trình mà không cần viết SQL.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Entity_relationship_model.svg"
+    },
+    {
+      "short_name": "Node.js",
+      "full_name": "Node.js Runtime",
+      "info": "Môi trường thực thi JavaScript phía server, giúp xây dựng ứng dụng web hiệu năng cao. Dùng để xử lý yêu cầu, thao tác file, truy cập database,...",
+      "image": "https://nodejs.org/static/images/logo.svg"
+    },
+    {
+      "short_name": "Express",
+      "full_name": "Express.js Framework",
+      "info": "Framework web nhẹ cho Node.js, giúp tạo API nhanh chóng và cấu trúc rõ ràng. Hỗ trợ middleware, routing, xử lý request/response dễ dàng.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+    },
+    {
+      "short_name": "REST API",
+      "full_name": "Representational State Transfer",
+      "info": "Kiểu thiết kế API phổ biến sử dụng HTTP để truy xuất tài nguyên. Dùng các phương thức GET, POST, PUT, DELETE cho frontend tương tác backend.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*9q_p9c4rKuycDJQXlsGdLg.png"
+    },
+    {
+      "short_name": "JWT",
+      "full_name": "JSON Web Token",
+      "info": "Chuỗi mã hóa dùng để xác thực người dùng giữa các lần request. Lưu thông tin đăng nhập an toàn trong localStorage/cookie.",
+      "image": "https://jwt.io/img/pic_logo.svg"
+    },
+    {
+      "short_name": "MongoDB",
+      "full_name": "MongoDB NoSQL Database",
+      "info": "Cơ sở dữ liệu NoSQL dạng tài liệu (document) phổ biến. Lưu dữ liệu dưới dạng JSON, dễ mở rộng, truy vấn linh hoạt.",
+      "image": "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png"
+    },
+    {
+      "short_name": "Mongoose",
+      "full_name": "Mongoose ODM",
+      "info": "Thư viện kết nối Node.js với MongoDB, hỗ trợ schema, validation, truy vấn đơn giản. Dễ quản lý dữ liệu theo mô hình object.",
+      "image": "https://avatars.githubusercontent.com/u/7552965?s=280&v=4"
+    },
+    {
+      "short_name": "SQL",
+      "full_name": "Structured Query Language",
+      "info": "Ngôn ngữ dùng để quản lý cơ sở dữ liệu quan hệ như MySQL, PostgreSQL. Dùng để tạo bảng, truy vấn, cập nhật và xóa dữ liệu.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+    },
+    {
+      "short_name": "MySQL",
+      "full_name": "MySQL Database",
+      "info": "Cơ sở dữ liệu quan hệ mã nguồn mở phổ biến, dùng rộng rãi trong hệ thống backend. Hỗ trợ SQL, tốc độ cao và tích hợp dễ dàng.",
+      "image": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
+    },
+    {
+      "short_name": "PostgreSQL",
+      "full_name": "PostgreSQL Database",
+      "info": "CSDL quan hệ mạnh mẽ, hỗ trợ SQL chuẩn và tính năng nâng cao. Thường dùng cho các hệ thống lớn, phức tạp.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+    },
+    {
+      "short_name": "ORM",
+      "full_name": "Object-Relational Mapping",
+      "info": "Kỹ thuật ánh xạ giữa object trong code và bảng trong cơ sở dữ liệu. Giúp thao tác với DB bằng ngôn ngữ lập trình mà không cần viết SQL.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Entity_relationship_model.svg"
+    },
+    {
+      "short_name": "Node.js",
+      "full_name": "Node.js Runtime",
+      "info": "Môi trường thực thi JavaScript phía server, giúp xây dựng ứng dụng web hiệu năng cao. Dùng để xử lý yêu cầu, thao tác file, truy cập database,...",
+      "image": "https://nodejs.org/static/images/logo.svg"
+    },
+    {
+      "short_name": "Express",
+      "full_name": "Express.js Framework",
+      "info": "Framework web nhẹ cho Node.js, giúp tạo API nhanh chóng và cấu trúc rõ ràng. Hỗ trợ middleware, routing, xử lý request/response dễ dàng.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+    },
+    {
+      "short_name": "REST API",
+      "full_name": "Representational State Transfer",
+      "info": "Kiểu thiết kế API phổ biến sử dụng HTTP để truy xuất tài nguyên. Dùng các phương thức GET, POST, PUT, DELETE cho frontend tương tác backend.",
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*9q_p9c4rKuycDJQXlsGdLg.png"
+    },
+    {
+      "short_name": "JWT",
+      "full_name": "JSON Web Token",
+      "info": "Chuỗi mã hóa dùng để xác thực người dùng giữa các lần request. Lưu thông tin đăng nhập an toàn trong localStorage/cookie.",
+      "image": "https://jwt.io/img/pic_logo.svg"
+    },
+    {
+      "short_name": "MongoDB",
+      "full_name": "MongoDB NoSQL Database",
+      "info": "Cơ sở dữ liệu NoSQL dạng tài liệu (document) phổ biến. Lưu dữ liệu dưới dạng JSON, dễ mở rộng, truy vấn linh hoạt.",
+      "image": "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png"
+    },
+    {
+      "short_name": "Mongoose",
+      "full_name": "Mongoose ODM",
+      "info": "Thư viện kết nối Node.js với MongoDB, hỗ trợ schema, validation, truy vấn đơn giản. Dễ quản lý dữ liệu theo mô hình object.",
+      "image": "https://avatars.githubusercontent.com/u/7552965?s=280&v=4"
+    },
+    {
+      "short_name": "SQL",
+      "full_name": "Structured Query Language",
+      "info": "Ngôn ngữ dùng để quản lý cơ sở dữ liệu quan hệ như MySQL, PostgreSQL. Dùng để tạo bảng, truy vấn, cập nhật và xóa dữ liệu.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+    },
+    {
+      "short_name": "MySQL",
+      "full_name": "MySQL Database",
+      "info": "Cơ sở dữ liệu quan hệ mã nguồn mở phổ biến, dùng rộng rãi trong hệ thống backend. Hỗ trợ SQL, tốc độ cao và tích hợp dễ dàng.",
+      "image": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
+    },
+    {
+      "short_name": "PostgreSQL",
+      "full_name": "PostgreSQL Database",
+      "info": "CSDL quan hệ mạnh mẽ, hỗ trợ SQL chuẩn và tính năng nâng cao. Thường dùng cho các hệ thống lớn, phức tạp.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+    },
+    {
+      "short_name": "ORM",
+      "full_name": "Object-Relational Mapping",
+      "info": "Kỹ thuật ánh xạ giữa object trong code và bảng trong cơ sở dữ liệu. Giúp thao tác với DB bằng ngôn ngữ lập trình mà không cần viết SQL.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Entity_relationship_model.svg"
+    }
+  ]

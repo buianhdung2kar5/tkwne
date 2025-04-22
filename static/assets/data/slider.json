@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Slick",
+      "description": "Slick là một thư viện jQuery slider được yêu thích nhờ sự đơn giản, dễ tích hợp và khả năng tùy biến cao. Nó được sử dụng rộng rãi trong các dự án web nhờ khả năng hoạt động ổn định và hiệu ứng chuyển đổi mượt mà.",
+      "features": [
+        "Dễ dàng cài đặt và cấu hình",
+        "Hỗ trợ responsive design",
+        "Tùy chỉnh nhiều hiệu ứng chuyển đổi"
+      ],
+      "use_case": "Phù hợp để xây dựng các slider ảnh, testimonial carousel, và phần trình bày tính năng sản phẩm trong các website thương mại điện tử hoặc portfolio cá nhân."
+    },
+    {
+      "name": "Swiper",
+      "description": "Swiper là thư viện slider hiện đại có hiệu suất rất cao, hỗ trợ cả thiết bị di động và desktop. Swiper được viết bằng JavaScript thuần, không phụ thuộc vào jQuery, rất lý tưởng cho các SPA hiện đại.",
+      "features": [
+        "Hỗ trợ mọi thiết bị: iOS, Android, desktop",
+        "Tích hợp với Angular, React, Vue",
+        "Hỗ trợ touch gestures, lazy loading, RTL"
+      ],
+      "use_case": "Rất phù hợp với các ứng dụng web mobile-first, các trang giới thiệu sản phẩm có nhiều tương tác trên thiết bị di động."
+    },
+    {
+      "name": "Owl Carousel",
+      "description": "Owl Carousel là thư viện slider jQuery nhỏ gọn và dễ dùng, được thiết kế với nhiều tùy chọn để tạo các carousel đẹp mắt. Nó đặc biệt hữu ích với các trang web chứa nhiều hình ảnh.",
+      "features": [
+        "Cài đặt nhanh chóng",
+        "Hiệu ứng mượt mà, responsive tốt",
+        "Lazy load giúp tối ưu tốc độ tải"
+      ],
+      "use_case": "Phù hợp với các website tin tức, blog, và danh mục sản phẩm có nhiều hình ảnh, nơi cần tối ưu thời gian tải."
+    },
+    {
+      "name": "Glide.js",
+      "description": "Glide.js là thư viện slider nhẹ, không phụ thuộc vào jQuery, với thiết kế hiện đại và dễ tích hợp. Tối ưu cho cả hiệu suất và trải nghiệm người dùng.",
+      "features": [
+        "Tích hợp tốt với React, Angular, Vue",
+        "Hỗ trợ touch gestures, hiệu ứng chuyển tiếp",
+        "Dễ dùng, nhẹ và mượt"
+      ],
+      "use_case": "Thích hợp cho các website cần tốc độ tải nhanh, tương thích tốt với các framework frontend hiện đại."
+    },
+    {
+      "name": "Flickity",
+      "description": "Flickity là thư viện slider nổi bật bởi sự linh hoạt và dễ sử dụng. Nó hỗ trợ nhiều loại nội dung khác nhau, từ ảnh đến component động trong trình chiếu.",
+      "features": [
+        "Hỗ trợ responsive và touch gestures",
+        "Tùy chỉnh dễ dàng",
+        "Tài liệu đầy đủ, thư viện nhỏ gọn"
+      ],
+      "use_case": "Dùng tốt cho các website có nội dung sáng tạo, nơi cần tích hợp slider cho cả hình ảnh, văn bản, video hoặc các thành phần giao diện động."
+    }
+  ]

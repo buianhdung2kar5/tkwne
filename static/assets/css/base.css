@@ -1,0 +1,19 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-1:#FF7F00;
+    --color-2:#C2000C;
+}
+a{
+    text-decoration: none !important;
+    color: #333333;
+}
+a:hover, a:focus, a:active {
+    color: inherit;
+  }

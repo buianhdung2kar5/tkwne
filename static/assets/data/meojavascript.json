@@ -1,0 +1,107 @@
+{
+    "title": "Những mẹo và thực hành JavaScript tốt nhất",
+    "time": "2025-04-20",
+    "image": "../static/image/javascript-tips.png",
+    "sections": [
+      {
+        "heading": "Đặt tên biến phù hợp",
+        "images": [
+          "https://tek4.vn/public_files/54853176-912a-4184-98dc-87c985b4f285",
+          "https://tek4.vn/public_files/96da3de5-23a4-4e26-8b71-92e42171cbb3"
+        ],
+        "bullets": [
+          "Sử dụng quy ước đặt tên camel-case.",
+          "Tên ngắn gọn và có hàm ý mô tả.",
+          "Tên giải thích mục đích của code.",
+          "Tên dễ phát âm."
+        ]
+      },
+      {
+        "heading": "Cẩn thận với toán tử loose equality (==)",
+        "images": [
+          "https://tek4.vn/public_files/9bfe4de9-fcf8-4b96-a9ac-c10112ba4688"
+        ],
+        "desc": "Toán tử loose equality thực hiện chuyển đổi kiểu tự động, dễ gây ra bug."
+      },
+      {
+        "heading": "Kiểm tra thuộc tính với 'in'",
+        "images": [
+          "https://tek4.vn/public_files/2b988990-8bae-4b4b-8d0a-27a72fb9898c"
+        ],
+        "desc": "Toán tử 'in' trả về true nếu thuộc tính tồn tại trong đối tượng hoặc prototype của nó."
+      },
+      {
+        "heading": "Chuyển chuỗi thành số bằng +",
+        "images": [
+          "https://tek4.vn/public_files/5f5f6936-bac6-4ec1-97a3-a13ccb717cdd"
+        ],
+        "desc": "Toán tử dấu cộng đơn (+) là cách nhanh nhất để chuyển đổi chuỗi thành số."
+      },
+      {
+        "heading": "Ẩn số bằng slice & padStart",
+        "images": [
+          "https://tek4.vn/public_files/100a767e-64cd-4ddf-bece-6d6b7a949c4d"
+        ],
+        "desc": "Kết hợp slice và padStart giúp ẩn các phần của dãy số dễ dàng và hiệu quả hơn."
+      },
+      {
+        "heading": "In biến bằng console.log",
+        "images": [
+          "https://tek4.vn/public_files/fcd6cff8-80bf-4b62-9398-4d9d48c09aaa"
+        ],
+        "desc": "Sử dụng console.log({var}) giúp log biến dễ đọc và dễ xác định hơn."
+      },
+      {
+        "heading": "Hoán đổi biến bằng destructuring",
+        "images": [
+          "https://tek4.vn/public_files/9bbf44d4-0f04-4c70-82d2-ce48873343da"
+        ],
+        "desc": "Dùng cú pháp destructuring [a, b] = [b, a] giúp hoán đổi nhanh gọn trong 1 dòng."
+      },
+      {
+        "heading": "Kiểm tra mảng bằng Array.every",
+        "images": [
+          "https://tek4.vn/public_files/422b44cb-5fd2-4595-bf52-e454598ecb35"
+        ],
+        "desc": "Array.every kiểm tra toàn bộ phần tử trong mảng có thoả mãn điều kiện hay không."
+      },
+      {
+        "heading": "Toán tử nullish ??",
+        "images": [
+          "https://tek4.vn/public_files/5be4b0c5-1385-44ee-a0f4-2aebc21f2503",
+          "https://tek4.vn/public_files/672e3003-0bc4-4523-9fd5-2cb493ef825a"
+        ],
+        "desc": "Toán tử ?? trả về giá trị bên phải nếu bên trái là null hoặc undefined."
+      },
+      {
+        "heading": "Cuộn mượt với scrollIntoView()",
+        "images": [
+          "https://tek4.vn/public_files/a4ffb5ba-ed95-4609-94b5-e4127487c307"
+        ],
+        "desc": "scrollIntoView giúp cuộn đến một phần tử cụ thể mượt mà và hiệu quả."
+      },
+      {
+        "heading": "Sử dụng replacer trong JSON.stringify",
+        "images": [
+          "https://tek4.vn/public_files/4ae1cd83-bb28-41a6-a725-3a79b4cc55cc"
+        ],
+        "desc": "Replacer là tham số thứ 2 trong JSON.stringify, cho phép lọc hoặc chỉnh sửa dữ liệu khi chuyển đổi."
+      },
+      {
+        "heading": "Thêm thuộc tính điều kiện bằng spread",
+        "images": [
+          "https://tek4.vn/public_files/b9423fb5-d114-40a7-8a96-e66861b22a0b",
+          "https://tek4.vn/public_files/f086cb72-915f-4a2f-9e89-3a27179a00cb"
+        ],
+        "desc": "Dùng toán tử spread kết hợp với && để thêm thuộc tính chỉ khi điều kiện đúng."
+      },
+      {
+        "heading": "Lọc falsy bằng Boolean & filter",
+        "images": [
+          "https://tek4.vn/public_files/25867b56-fae5-48b7-a773-4f42003184e2"
+        ],
+        "desc": "Array.filter(Boolean) giúp loại bỏ các giá trị falsy như false, 0, null, undefined, NaN, ''."
+      }
+    ]
+  }
+  

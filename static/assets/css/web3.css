@@ -1,0 +1,87 @@
+.topgiaodien {
+    margin: 80px 0;
+}
+.topgiaodien .inner-wrap .inner-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topgiaodien .inner-wrap .inner-content .inner-box {
+    width: calc(100%/4 - 90px/4);
+    margin-right: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.topgiaodien .inner-wrap .inner-content .inner-box:nth-child(4n){
+    margin-right: 0;
+}
+.topgiaodien .inner-wrap .inner-content .inner-box .inner-image{
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+.topgiaodien .inner-wrap .inner-content .inner-box .inner-image img{
+    width: 100%;
+    aspect-ratio: 1/1.2;
+    object-fit: cover;
+}
+.topgiaodien .inner-wrap .inner-content .inner-box .inner-image .inner-action{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+    transition: all .3s ease .15s;
+}
+.topgiaodien .inner-wrap .inner-content .inner-box .inner-image:hover .inner-action{
+    height: 100%;
+    bottom: 0;
+}
+.topgiaodien .inner-wrap .inner-content .inner-box .inner-image .inner-action .inner-button{
+    background-image: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.topgiaodien .inner-wrap .inner-content .inner-box h2{
+    color: var(--color-1);
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.topgiaodien .more{
+    text-align: end;
+    margin-top: 20px;
+}
+.topgiaodien .more a{
+    position: relative;
+    padding: 15px 20px;
+    font-size: 18px;
+    right: 30px;
+    border-radius: 45px;
+    background-color: var(--color-1);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.501);
+}
+.topgiaodien .more a:hover{
+    background-color: white;
+    color: var(--color-1);
+}
+
+

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/slick.css">
+    <link rel="stylesheet" href="/static/assets/css/reset.css">
+    <link rel="stylesheet" href="/static/assets/css/base.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+    <link rel="stylesheet" href="/static/assets/css/web4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/static/assets/css/web3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="/static/assets/bootstrap/jquery.slim.min.js"></script>
+    <script src="/static/assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="inner-logo">
+                    <a href="/"><img src="/static/assets/image/logo.svg" alt=""></a>
+                </div>
+                <div class="inner-menu">
+                    <ul>
+                        <li>
+                            <a href="/xaydungweb">Xây dựng Website <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/xaydungweb">Thiết Kế Website</a></li>
+                                <li><a href="/khogiaodien">Kho Giao Diện</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/thietkelogo">Thiết Kế Đồ Họa<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="/thietkelogo">Thiết Kế Logo</a></li>
+                                <li><a href="/banhang">Bộ Nhận diện thương hiệu</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Cộng tác<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="#">Chương Trình Đại Lý</a></li>
+                                <li><a href="#">Cộng Tác Viên</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog<i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="menu-dropdown">
+                                <li><a href="#">Tổng Hợp</a></li>
+                                <li><a href="#">Lập Trình</a></li>
+                                <li><a href="#">Cách Bán Hàng Trên Website</a></li>
+                                <li><a href="#">Bí Quyết Làm SEO</a></li>
+                                <li><a href="#">Kinh Nghiệm Thiết Kế Website</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-primary button" data-toggle="modal" data-target="#exampleModal" id="buttonHeader">Tư Vấn Ngay</button>
+                <div class="inner-bar" id="inner-bar"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+    <div class="menu" id="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li>
+                <a href="/xaydungweb">Xây dựng Website</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/xaydungweb">Thiết Kế Website</a></li>
+                    <li><a href="/khogiaodien">Kho Giao Diện</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/thietkelogo">Thiết Kế Đồ Họa</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="/thietkelogo">Thiết kế Logo</a></li>
+                    <li><a href="/banhang">Bộ nhận diện thương hiệu</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Cộng tác</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="">Chương trình đại lý</a></li>
+                    <li><a href="">Cộng tác viên</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+                <i class="fa-solid fa-chevron-down"></i>
+                <ul class="menu-mini">
+                    <li><a href="">Tổng hợp</a></li>
+                    <li><a href="">Lập trình</a></li>
+                    <li><a href="">Cách bán hàng trên website</a></li>
+                    <li><a href="">Bí quyết làm SEO</a></li>
+                    <li><a href="">Kinh nghiệm thiết kế website</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Liên Hệ</a>
+            </li>
+        </ul>
+        <div class="inner-logo">
+            <img src="/static/assets/image/logo.svg" alt="">
+        </div>
+        <div class="buttonClose" id="buttonClose"><i class="fa-solid fa-xmark"></i></div>
+    </div>
+    <!--end header -->
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="/static/assets/image/logo.svg" alt="">
+          <h2>Gửi yêu cầu tư vấn miễn phí</h2>
+          <p>38.000+ doanh nghiệp & chủ shop đã tin dùng    </p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Họ và tên">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Số điện thoại">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Lĩnh vực kinh doanh">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="button">Gửi Yêu Cầu</button>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!-- topgiaodien -->
+         <div class="topgiaodien">
+            <div class="container">
+                <div class="inner-wrap">
+                    <div class="inner-title">
+                        <h2>Top giao diện web</h2>
+                        <p>Những mẫu thiết kế web bán hàng được nhiều người dùng nhất</p>
+                    </div>
+                    <div class="inner-content" id="inner-content"></div>
+                </div>
+                <div class="more button3"><a href="/banhang">Mua Hàng</a></div>
+            </div>
+         </div>
+        <!-- topgiaodien -->
+         <!-- giaodienmoi -->
+          <div class="giaodienmoi topgiaodien">
+            <div class="container">
+                <div class="inner-wrap">
+                    <div class="inner-title">
+                        <h2>Giao diện web mới</h2>
+                        <p>Khám phá những template website bán hàng mới nhất</p>
+                    </div>
+                    <div class="inner-content" id="new"></div>
+                </div>
+                <div class="more button3"><a href="/banhang">Mua Hàng</a></div>
+            </div>
+          </div>
+         <!-- giaodienmoi -->
+        <!-- logo5 -->
+        <div class="logo5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 inner-main">
+                        <div class="inner-head">
+                            <h2 class="inner-title">Hỏi đáp về kho giao diện Mẫu Website đẹp tại Daca</h2>
+                        </div>
+                        <div class="inner-body">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left" type="button"
+                                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Dịch vụ thiết kế website trọn gói của Daca gồm những gì?
+                                            </button>
+                                        </h2>
+                                    </div>
+    
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Website trọn gói của Daca đã bao gồm giao diện web đẹp nhất và hosting lưu trữ, chứng chỉ bảo mật SSL, email doanh nghiệp,...
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                Giao diện website có hiển thị được trên mobile không?
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Bạn hoàn toàn yên tâm bởi website được thiết kế theo công nghệ Responsive web design giúp dễ dàng hiển thị trên mọi trình duyệt web và tất cả thiết bị (PC, máy tính bảng, điện thoại di động,…).
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                Tôi chưa chọn được mẫu giao diện web bán hàng đẹp
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Nếu bạn chưa có ý tưởng hoặc chưa chọn được mẫu giao diện website đẹp nhất, ưng ý nhất, vậy bạn có thể tham khảo hơn 400+ mẫu theme đẹp trong kho giao diện của Daca. Đây đều là những website đẹp, tiêu biểu trong số hàng ngàn dự án đã được đội ngũ Daca thực hiện thành công.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            Tôi muốn thiết kế giao diện website của mình giống với web xyz.com được không?
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Khi bạn đã có ý tưởng cho giao diện web hoặc có nhu cầu làm website giống một web nào đó, đội ngũ Daca sẽ hỗ trợ bạn sở hữu thiết kế đẹp nhất, không chỉ học hỏi điểm hay của web đó mà còn mang nét đặc trưng riêng của bạn.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- logo6 -->
+        <div class="logo6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="inner-main">
+                            <div class="inner-head">
+                                <h2 class="inner-title">Kết nối ngay với Daca</h2>
+                                <p class="inner-desc">Chúng tôi luôn sẵn sàng lắng nghe và đưa ra giải pháp phù hợp nhất cho vấn đề của bạn.</p>
+                            </div>
+                            <div class="inner-body">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Họ và tên*">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Số điện thoại*">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="form-group">
+                                            <textarea type="text" class="form-control" placeholder="Nội dung"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 text-center">
+                                        <button class="button">
+                                            Đăng ký tư vấn
+                                        </button>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <!-- section6 -->
+        <div class="section6">
+            <div class="container">
+                <div class="inner-title">
+                    <h2>Gửi yêu cầu tư vấn miễn phí</h2>
+                    <p>DACA – Công Ty Thiết Kế Website Uy Tín, Chuyên Nghiệp, Chuẩn SEO</p>
+                </div>
+                <div class="inner-content">
+                    <form id="formTwo" class="formTwo">
+                        <input type="phoneTwo" id="phoneTwo" class="inner-phone" placeholder="Số điện thoại cần tư vấn">
+                        <button class="button button1" type="submit">Đăng Ký</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- section6 -->
+            <!-- section7 -->
+            <div class="section7">
+                <div class="container">
+                    <div class="inner-content">
+                        <div class="inner-box">
+                            <h2>Liên hệ</h2>
+                            <p>Công Ty TNHH Công Nghệ Và Dịch Vụ DACA</p>
+                            <p>Địa chỉ:T. Phú Lương Thượng - Quảng Phú Cầu - Ứng Hòa - Hà Nội</p>
+                            <p>Hotline:0344 570 115</p>
+                            <p>Email:contact@daca.vn</p>
+                            <p>Giấy phép kinh doanh số:0109971659 do Sở kế hoạch và Đầu tư Tp. Hà nội cấp ngày
+                                20/04/2022
+                            </p>
+                        </div>
+                        <div class="inner-box">
+                            <h2>Daca.vn</h2>
+                            <a href="#">
+                                <p>Về chúng tôi</p>
+                            </a>
+                            <a href="#">
+                                <p>Bảng giá Website</p>
+                            </a>
+                            <a href="#">
+                                <p>Chương trình đại lý</p>
+                            </a>
+                            <a href="#">
+                                <p>Cộng tác viên</p>
+                            </a>
+                            <a href="#">
+                                <p>Blog Daca</p>
+                            </a>
+                            <a href="#">
+                                <p>Liên hệ</p>
+                            </a>
+                        </div>
+                        <div class="inner-box">
+                            <h2>Thiết kế website</h2>
+                            <a href="#">
+                                <p>Thiết kế Mỹ phẩm</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế web Thời trang</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế web Nội thất</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế web Công nghệ</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế website mẹ và bé</p>
+                            </a>
+                            <a href="#">
+                                <p>Thiết kế web Giáo dục</p>
+                            </a>
+                        </div>
+                        <div class="inner-box">
+                            <h2>Trợ giúp</h2>
+                            <a href="#">
+                                <p>Tài liệu hướng dẫn</p>
+                            </a>
+                            <a href="#">
+                                <p>Hướng dẫn thanh toán</p>
+                            </a>
+                            <a href="#">
+                                <p>Chính sách bảo mật thông tin</p>
+                            </a>
+                            <a href="#">
+                                <p>Điều khoản sử dụng</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="inner-contact">
+                        <div class="inner-box">
+                            <h2>Địa chỉ:</h2>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.8139388581217!2d105.83992427503058!3d21.000094180642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac71752d8f79%3A0xd2ec575c01017afa!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBLaW5oIFThur8gUXXhu5FjIETDom4gKE5FVSk!5e0!3m2!1svi!2s!4v1742976642235!5m2!1svi!2s"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section7 -->
+            <!-- section8 -->
+            <div class="section8">
+                <div class="container">
+                    <h2>Copyright 2022 Daca.vn - All Rights Reserved</h2>
+                </div>
+            </div>
+            <!-- end-section8 -->
+        </footer>
+        <!-- footer -->
+        <div class="contact">
+            <ul class="contact-list">
+                <li><a href="#"><i class="fa-brands fa-facebook-messenger"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <script>
+            // topgiaodien
+            fetch("https://daca-62l9.vercel.app/database.json")
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                 let htmls="";
+                 data.top.forEach(item=> {
+                    htmls+= `
+                    <div class="inner-box">
+                        <a href="${item.link}" target="_blank">
+                            <div class="inner-image">
+                                <img src="${item.image}">
+                                <div class="inner-action"><div class="inner-button">Xem Thử</div></div>
+                            </div>
+                            <h2 class="inner-title">${item.title}</h2>
+                        </a>
+                    </div>
+                    `
+                 });
+                 let divTopGiaoDien = document.querySelector("#inner-content");
+                 divTopGiaoDien.innerHTML=htmls;
+                })
+            // endtopgiaodien
+            //new
+            fetch("https://daca-62l9.vercel.app/database.json")
+                .then(response => response.json())
+                .then(data => {
+                    let htmls="";
+                    data.new.forEach( item => {
+                        htmls += `
+                        <div class="inner-box">
+                            <a href="${item.link}" target="_blank">
+                                <div class="inner-image">
+                                    <img src="${item.image}">
+                                    <div class="inner-action"><div class="inner-button">Xem Thử</div></div>
+                                </div>
+                                <h2 class="inner-title">${item.title}</h2>
+                            </a>
+                        </div>
+                        `
+                    })
+                    let divNewGiaoDien = document.querySelector("#new");
+                    divNewGiaoDien.innerHTML=htmls;
+                })
+            //new
+        </script>
+        <script src="/static/assets/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="/static/assets/js/slick.min.js"></script>
+        <script src="/static/assets/js/script.js"></script>
+</body>
+
+</html>

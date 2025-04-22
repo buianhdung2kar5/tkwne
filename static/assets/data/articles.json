@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/top10ai.png",
+    "title": "Top 10 AI hot nhất 2025",
+    "date": "2025-04-20",
+    "alt": "Top 10 AI hot nhất 2025",
+    "link": "/blog/top10ai"
+  },
+  {
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/thuatngufrontend.png",
+    "title": "Thuật ngữ Frontend cho người mới",
+    "date": "2025-04-20",
+    "alt": "Thuật ngữ Frontend cho người mới",
+    "link": "/blog/thuatngufrontend"
+  },
+  {
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/thuatngubackend.png",
+    "title": "Thuật ngữ Backend cho người mới",
+    "date": "2025-04-20",
+    "alt": "Thuật ngữ Backend cho người mới",
+    "link": "/blog/thuatngubackend"
+  },
+  {
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/8lenhsql.png",
+    "title": "Top 8 lệnh SQL bạn nên biết",
+    "date": "2025-04-20",
+    "alt": "Top 8 lệnh SQL bạn nên biết",
+    "link": "/blog/8lenhsql"
+  },
+  {
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/kichthuoc-website.png",
+    "title": "Kích thước thiết kế Website chuẩn - Có ảnh hưởng tới SEO?",
+    "date": "2022-01-16",
+    "alt": "Kích thước thiết kế Website chuẩn - Có ảnh hưởng tới SEO?",
+    "link": "./kich-thuoc-thiet-ke-website-chuan.html"
+  },
+  {
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/placeholder.png",
+    "title": "Đang cập nhật...",
+    "date": "Đang cập nhật",
+    "alt": "Đang cập nhật...",
+    "link": "#"
+  },
+  {
+    "image": "https://ibcwqmehqeocndwexmec.supabase.co/storage/v1/object/public/public-image/navbar/10sukienthuongnien.png",
+    "title": "Top 10 sự kiện công nghệ hàng năm",
+    "date": "2025-04-20",
+    "alt": "Top 10 sự kiện công nghệ hàng năm",
+    "link": "/blog/10sukienthuongnien"
+  },
+  {
+    "image": "#",
+    "title": "Các mẹo javascript hay có thể giúp ích cho bạn",
+    "date": "2025-06-14",
+    "alt": "Các mẹo javascript hay có thể giúp ích cho bạn",
+    "link": "/blog/meojavascript"
+  }
+]
